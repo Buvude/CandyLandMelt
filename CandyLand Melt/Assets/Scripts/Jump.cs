@@ -1,21 +1,23 @@
 using UnityEngine;
-
-[RequireComponent(typeof(Rigidbody2D))]
-public class Jump : MonoBehaviour
+namespace Player
 {
-    [Range(1, 10)] public float jumpVelocity = 5;
-    private Rigidbody2D rb;
-
-    private void Start()
+    [RequireComponent(typeof(Rigidbody2D))]
+    public class Jump : MonoBehaviour
     {
-        rb = GetComponent<Rigidbody2D>();
-    }
+        [Range(1, 10)] public float jumpVelocity = 5;
+        private Rigidbody2D rb;
 
-    private void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.Space))
+        private void Start()
         {
-            rb.velocity = Vector2.up * jumpVelocity;
+            rb = GetComponent<Rigidbody2D>();
+        }
+
+        private void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                rb.velocity = Vector2.up * jumpVelocity;
+            }
         }
     }
 }

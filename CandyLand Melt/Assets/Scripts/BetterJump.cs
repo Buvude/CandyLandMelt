@@ -1,26 +1,29 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D))]
-public class BetterJump : MonoBehaviour
+namespace Player
 {
-    [SerializeField] private float fallMultiplier;
-    [SerializeField] private float lowJumpMultiplier;
-
-    private Rigidbody2D rb;
-    private void Start()
+    [RequireComponent(typeof(Rigidbody2D))]
+    public class BetterJump : MonoBehaviour
     {
-        rb = GetComponent<Rigidbody2D>();
-    }
+        [SerializeField] private float fallMultiplier;
+        [SerializeField] private float lowJumpMultiplier;
 
-    private void Update()
-    {
-        if(rb.velocity.y < 0)
+        private Rigidbody2D rb;
+        private void Start()
         {
-            rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+            rb = GetComponent<Rigidbody2D>();
         }
-        else if(rb.velocity.y > 0 && !Input.GetKey(KeyCode.Space))
+
+        private void Update()
         {
-            rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+            if (rb.velocity.y < 0)
+            {
+                rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+            }
+            else if (rb.velocity.y > 0 && !Input.GetKey(KeyCode.Space))
+            {
+                rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+            }
         }
     }
 }
