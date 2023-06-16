@@ -23,6 +23,15 @@ namespace Player
                 UpdatePickables();
             }
         }
+        public void DestroyPickable()
+        {
+            if(pickables.Count > 0)
+            {
+                Transform toDelete = pickables.Pop();
+                Destroy(toDelete.gameObject);
+                UpdatePickables();
+            }
+        }
         private void UpdatePickables()
         {
             Vector2 pickablePosition = Vector2.zero;

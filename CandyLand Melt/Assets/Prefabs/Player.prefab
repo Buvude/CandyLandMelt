@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 419335094}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pickable Parent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 5821997578787907094}
   - component: {fileID: 5821997578787907088}
   - component: {fileID: 5821997578787907089}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 4246972279332134257}
   - component: {fileID: 5821997579756916199}
   - component: {fileID: 5821997579756916196}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -145,7 +145,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5821997579756916197}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.32850367, y: 0.19099051, z: 0.036899365}
+  m_LocalPosition: {x: -0.32850367, y: 0.19099051, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -208,7 +208,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   floorTag: Floor
   pickableTag: Pickable
+  citizenTag: Citizen
   holdObject: {fileID: 4246972279332134257}
+  jump: {fileID: 5821997579756916192}
 --- !u!114 &4246972279332134257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -223,7 +225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickablesHolder: {fileID: 419335094}
   distanceBetweenPickables: 1
-  maxPickablesToHold: 0
+  maxPickablesToHold: 2
 --- !u!61 &5821997579756916199
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -6,13 +6,29 @@ namespace Player
     {
         [SerializeField] private string floorTag;
         [SerializeField] private string pickableTag;
+        [SerializeField] private string citizenTag;
         [SerializeField] private HoldObject holdObject;
+        [SerializeField] private Jump jump;
 
         private void OnTriggerEnter2D(Collider2D collision)
         {
             if (collision.gameObject.tag == pickableTag)
             {
                 holdObject.GrabPickable(collision.gameObject);
+            }
+            if (collision.gameObject.tag == citizenTag)
+            {
+                holdObject.DestroyPickable();
+            }
+        }
+        private void OnTriggerStay2D(Collider2D collision)
+        {
+            if (collision.gameObject.tag == floorTag)
+            {
+                if (collision.transform.position.y < this.transform.position.y)
+                {
+                    jump.SetJumpAvailable(true);
+                }
             }
         }
     }
