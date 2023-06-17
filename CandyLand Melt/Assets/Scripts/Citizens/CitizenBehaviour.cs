@@ -44,8 +44,11 @@ public class CitizenBehaviour : MonoBehaviour
 
     private void Death() 
     {
-        if (health <= 0)
+        if (health <= 0 && this.gameObject.activeInHierarchy)
+        {
+            LosingConditionManager.CitizenDied();
             this.gameObject.SetActive(false);
+        }
     }
 
     public float GetTotalHealth() 
