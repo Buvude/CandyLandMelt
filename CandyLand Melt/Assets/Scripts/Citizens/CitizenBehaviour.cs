@@ -21,6 +21,8 @@ public class CitizenBehaviour : MonoBehaviour
     public void SetHealth(float _health) 
     {
         currentHealth = _health;
+        if (health > totalHealth)
+            health = totalHealth;
     }
 
     public void TakeDamage(float damage) 
@@ -31,6 +33,7 @@ public class CitizenBehaviour : MonoBehaviour
 
     public void RecoverHealth() 
     {
+
         currentHealth += healthToRecover;
         if (currentHealth > totalHealth)
             FullHealthRecover();
