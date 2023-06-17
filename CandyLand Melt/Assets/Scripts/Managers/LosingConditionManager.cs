@@ -12,6 +12,6 @@ public static class LosingConditionManager
     {
         deadCitizens += 1;
         if (deadCitizens >= citizensLimit)
-            SceneManager.LoadScene("Tittle Screen mock up");
+            SceneManager.LoadScene("GameOverScene");
     }
 }
