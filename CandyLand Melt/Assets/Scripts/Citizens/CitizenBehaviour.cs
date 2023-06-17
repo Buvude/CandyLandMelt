@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class CitizenBehaviour : MonoBehaviour
 {
-    [SerializeField] private float totalHealth;
-    [SerializeField] private float healthToRecover = 5;
-    [SerializeField] private float currentHealth;
+    [SerializeField] private float minTemperature;
+    [SerializeField] private float temperatureDecrease = 5;
+    [SerializeField] private float currentTemperature;
+    [SerializeField] private float maxTemprature;
+    [SerializeField] private HealthBar heatBar;
     
     private void BeginBehaviour() 
     {
-        currentHealth = totalHealth;
+        currentTemperature = minTemperature;
+        heatBar.SetMaxTemperature(maxTemprature);
     }
 
     private void Start()
@@ -18,50 +21,58 @@ public class CitizenBehaviour : MonoBehaviour
         BeginBehaviour();
     }
 
-    public void SetHealth(float _health) 
+    public void SetTemperature(float temperature) 
     {
-        currentHealth = _health;
-        if (health > totalHealth)
-            health = totalHealth;
+        currentTemperature = temperature;
+        UpdateHeatBar();
+        if (currentTemperature < minTemperature)
+            FullCooldown();
     }
 
     public void TakeDamage(float damage) 
     {
-        currentHealth -= damage;
+        currentTemperature += damage;
+        UpdateHeatBar();
         Death();
     }
 
     public void RecoverHealth() 
     {
-
-        currentHealth += healthToRecover;
-        if (currentHealth > totalHealth)
-            FullHealthRecover();
+        currentTemperature -= temperatureDecrease;
+        UpdateHeatBar();
+        if (currentTemperature < minTemperature)
+            FullCooldown();
     }
 
-    public void FullHealthRecover() 
+    public void FullCooldown() 
     {
-        currentHealth = totalHealth;
+        currentTemperature = minTemperature;
+        UpdateHeatBar();
     }
 
     private void Death() 
     {
-        if (currentHealth <= 0)
+        if (currentTemperature >= maxTemprature)
             this.gameObject.SetActive(false);
     }
 
-    public float GetTotalHealth() 
+    public float GetMaxTemperature() 
     {
-        return totalHealth;
+        return maxTemprature;
     }
 
-    public float GetHealth() 
+    public float GetHeat() 
     {
-        return currentHealth;
+        return currentTemperature;
     }
 
     public bool IsAlive() 
     {
-        return currentHealth > 0;
+        return currentTemperature < maxTemprature;
+    }
+
+    private void UpdateHeatBar()
+    {
+        heatBar.SetTemperature(currentTemperature);
     }
 }
