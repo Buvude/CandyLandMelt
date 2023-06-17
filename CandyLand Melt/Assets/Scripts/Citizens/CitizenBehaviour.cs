@@ -52,7 +52,7 @@ public class CitizenBehaviour : MonoBehaviour
 
     private void Death() 
     {
-        if (currentTemperature >= maxTemprature && && this.gameObject.activeInHierarchy)
+        if (currentTemperature >= maxTemprature && this.gameObject.activeInHierarchy)
         {
             LosingConditionManager.CitizenDied();
             this.gameObject.SetActive(false);
