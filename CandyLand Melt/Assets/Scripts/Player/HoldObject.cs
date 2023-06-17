@@ -10,10 +10,12 @@ namespace Player
         [SerializeField] private float distanceBetweenPickables;
         [SerializeField] private float maxPickablesToHold;
         private Stack<Transform> pickables;
+        Score _score;
 
         private void Start()
         {
             pickables = new Stack<Transform>();
+            _score = Score.Instance;
         }
         public void GrabPickable(GameObject pickable)
         {   if(pickables.Count < maxPickablesToHold)
@@ -30,6 +32,7 @@ namespace Player
                 Transform toDelete = pickables.Pop();
                 Destroy(toDelete.gameObject);
                 UpdatePickables();
+                _score.AddScore(_score.GetRegularPointValue());
             }
         }
         public bool GetEnoughPickables()  { return (pickables.Count > 0); }
