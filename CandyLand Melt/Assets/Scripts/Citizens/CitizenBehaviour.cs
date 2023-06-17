@@ -20,6 +20,8 @@ public class CitizenBehaviour : MonoBehaviour
     public void SetHealth(float _health) 
     {
         health = _health;
+        if (health > totalHealth)
+            health = totalHealth;
     }
 
     public void TakeDamage(float damage) 
@@ -31,6 +33,8 @@ public class CitizenBehaviour : MonoBehaviour
     public void RecoverHealth(float recover) 
     {
         health += recover;
+        if (health > totalHealth)
+            health = totalHealth;
     }
 
     public void FullHealthRecover() 

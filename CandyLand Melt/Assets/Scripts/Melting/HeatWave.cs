@@ -13,12 +13,16 @@ public class HeatWave : MonoBehaviour
     [SerializeField] private List<CitizenBehaviour> citizens;
     [SerializeField] private float heatDamage;
     [SerializeField] private float damageTime;
-    private float timer;
+    [SerializeField] private float heatDamageIncrease;
+    [SerializeField] private float heatIncreaseTime;
+    private float heatDamageTimer;
+    private float heatIncreaseTimer;
     private HeatEvent heatWave;
 
     private void Awake()
     {
-        timer = 0;
+        heatDamageTimer = 0;
+        heatIncreaseTimer = 0;
         heatWave = new HeatEvent();
     }
 
@@ -35,18 +39,29 @@ public class HeatWave : MonoBehaviour
         AddCitizensListeners();
     }
 
-    private void HeatBehaviour() 
+    private void HeatIncreaseBehaviour() 
     {
-        timer += Time.deltaTime;
-        if (timer >= damageTime)
+        heatIncreaseTimer += Time.deltaTime;
+        if (heatIncreaseTimer >= heatIncreaseTime) 
+        {
+            heatDamage += heatDamageIncrease;
+            heatIncreaseTimer = 0;
+        }
+    }
+
+    private void HeatDamageBehaviour() 
+    {
+        heatDamageTimer += Time.deltaTime;
+        if (heatDamageTimer >= damageTime)
         {
             heatWave.Invoke(heatDamage);
-            timer = 0;
+            heatDamageTimer = 0;
         }
     }
 
     private void Update()
     {
-        HeatBehaviour();
+        HeatDamageBehaviour();
+        HeatIncreaseBehaviour();
     }
 }
