@@ -32,6 +32,7 @@ namespace Player
                 UpdatePickables();
             }
         }
+        public bool GetEnoughPickables()  { return (pickables.Count > 0); }
         private void UpdatePickables()
         {
             Vector2 pickablePosition = Vector2.zero;

@@ -5,11 +5,12 @@ using UnityEngine;
 public class CitizenBehaviour : MonoBehaviour
 {
     [SerializeField] private float totalHealth;
-    private float health;
+    [SerializeField] private float healthToRecover = 5;
+    [SerializeField] private float currentHealth;
     
     private void BeginBehaviour() 
     {
-        health = totalHealth;
+        currentHealth = totalHealth;
     }
 
     private void Start()
@@ -19,28 +20,30 @@ public class CitizenBehaviour : MonoBehaviour
 
     public void SetHealth(float _health) 
     {
-        health = _health;
+        currentHealth = _health;
     }
 
     public void TakeDamage(float damage) 
     {
-        health -= damage;
+        currentHealth -= damage;
         Death();
     }
 
-    public void RecoverHealth(float recover) 
+    public void RecoverHealth() 
     {
-        health += recover;
+        currentHealth += healthToRecover;
+        if (currentHealth > totalHealth)
+            FullHealthRecover();
     }
 
     public void FullHealthRecover() 
     {
-        health = totalHealth;
+        currentHealth = totalHealth;
     }
 
     private void Death() 
     {
-        if (health <= 0)
+        if (currentHealth <= 0)
             this.gameObject.SetActive(false);
     }
 
@@ -51,11 +54,11 @@ public class CitizenBehaviour : MonoBehaviour
 
     public float GetHealth() 
     {
-        return health;
+        return currentHealth;
     }
 
     public bool IsAlive() 
     {
-        return health > 0;
+        return currentHealth > 0;
     }
 }

@@ -18,7 +18,11 @@ namespace Player
             }
             if (collision.gameObject.tag == citizenTag)
             {
-                holdObject.DestroyPickable();
+                if(holdObject.GetEnoughPickables())
+                {
+                    holdObject.DestroyPickable();
+                    collision.GetComponent<CitizenBehaviour>().RecoverHealth();
+                }
             }
         }
         private void OnTriggerStay2D(Collider2D collision)
