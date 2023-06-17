@@ -39,29 +39,75 @@ public class HeatWave : MonoBehaviour
         AddCitizensListeners();
     }
 
-    private void HeatIncreaseBehaviour() 
+    private void HeatDamageTimerTick() 
+    {
+        heatDamageTimer += Time.deltaTime;
+    }
+
+    private void HeatIncreaseTimerTick() 
     {
         heatIncreaseTimer += Time.deltaTime;
+    }
+
+    private void HeatIncreaseBehaviour() 
+    {
         if (heatIncreaseTimer >= heatIncreaseTime) 
         {
             heatDamage += heatDamageIncrease;
-            heatIncreaseTimer = 0;
         }
     }
 
     private void HeatDamageBehaviour() 
     {
-        heatDamageTimer += Time.deltaTime;
         if (heatDamageTimer >= damageTime)
         {
             heatWave.Invoke(heatDamage);
+        }
+    }
+
+    private void RemoveDeadCitizenListener() 
+    {
+        if (heatDamageTimer >= damageTime) 
+        {
+            for (int i = 0; i < citizens.Count; i++) 
+            {
+                if (!citizens[i].IsAlive())
+                {
+                    heatWave.RemoveListener(citizens[i].TakeDamage);
+                }
+            }
+        }
+    }
+
+    private void HeatDamageTimerRestart() 
+    {
+        if (heatDamageTimer >= damageTime) 
+        {
             heatDamageTimer = 0;
         }
     }
 
+    private void HeatIncreaseTimerRestart() 
+    {
+        if (heatIncreaseTimer >= heatIncreaseTime) 
+        {
+            heatIncreaseTimer = 0;
+        }
+    }
+
+    private void HeatWaveBehave() 
+    {
+        HeatDamageTimerTick();
+        HeatIncreaseTimerTick();
+        HeatDamageBehaviour();
+        RemoveDeadCitizenListener();
+        HeatIncreaseBehaviour();
+        HeatDamageTimerRestart();
+        HeatIncreaseTimerRestart();
+    }
+
     private void Update()
     {
-        HeatDamageBehaviour();
-        HeatIncreaseBehaviour();
+        HeatWaveBehave();
     }
 }
