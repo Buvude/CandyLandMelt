@@ -20,8 +20,9 @@ namespace Player
         public void GrabPickable(GameObject pickable)
         {   if(pickables.Count < maxPickablesToHold)
             {
-                pickable.GetComponent<Rigidbody2D>().gravityScale = 0;
+                pickable.GetComponent<Rigidbody2D>().isKinematic = true;
                 pickable.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+                pickable.GetComponentInChildren<Collider2D>().enabled = false;
                 pickables.Push(pickable.transform);
                 pickable.transform.parent = pickablesHolder;
                 UpdatePickables();
@@ -32,7 +33,8 @@ namespace Player
             if(pickables.Count > 0)
             {
                 Transform toDelete = pickables.Pop();
-                toDelete.GetComponent<Rigidbody2D>().gravityScale = 1;
+                toDelete.GetComponent<Rigidbody2D>().isKinematic = false;
+                toDelete.GetComponentInChildren<Collider2D>().enabled = true;
                 toDelete.GetComponent<PoolObject>().Recycle();
                 UpdatePickables();
                 _score.AddScore(_score.GetRegularPointValue());

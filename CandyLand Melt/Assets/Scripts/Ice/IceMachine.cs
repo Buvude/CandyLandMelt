@@ -21,9 +21,12 @@ public class IceMachine : MonoBehaviour
         if(timer.Update(Time.deltaTime))
         {
             PoolObject ice = icePool.GetPooledObject();
-            ice.GetComponent<Transform>().position = this.transform.position;
-            timer.StopAndReset();
-            timer.Start();
+            if(ice != null)
+            {
+                ice.GetComponent<Transform>().position = this.transform.position;
+                timer.StopAndReset();
+                timer.Start();
+            }
         }
     }
 }

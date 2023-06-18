@@ -1,15 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class Pool : MonoBehaviour
 {
-
     public GameObject prefab;
     public int number; //The maximum number of times that the object will appear at the same time
     private List<PoolObject> poolList = new List<PoolObject>();
     int recycledObjectsNumber = 0;
-    void Awake()
+    private void Awake()
     {
         for (int i = 0; i < number; i++)
         {
@@ -28,10 +26,11 @@ public class Pool : MonoBehaviour
         }
         else
         {
-            PoolObject po = CreateObject();
+            return null;
+            /*PoolObject po = CreateObject();
             po.gameObject.SetActive(true);
-            // Debug.LogWarning("Se creo un objeto en tiempo de ejecucion (pool)");
-            return po;
+            Debug.LogWarning("Se creo un objeto en tiempo de ejecucion (pool)");
+            return po;*/
         }
     }
     public void Recycle(PoolObject po)
