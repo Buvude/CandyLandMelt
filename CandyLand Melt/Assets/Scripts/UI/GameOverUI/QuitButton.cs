@@ -8,6 +8,6 @@ public class QuitButton : MonoBehaviour
     public void QuitPressed() 
     {
         LosingConditionManager.deadCitizens = 0;
-        SceneManager.LoadScene("Tittle Screen mock up");
+        SceneManager.LoadScene(0);
     }
 }
