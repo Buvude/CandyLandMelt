@@ -624,7 +624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a70cdca5bd37b947914cb60aa1a2898, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: PlayerTestingScene
+  sceneToLoadIndex: 1
 --- !u!1 &1088143286
 GameObject:
   m_ObjectHideFlags: 0
@@ -660,7 +660,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.38000003, y: 0.63111115}
   m_AnchorMax: {x: 0.625, y: 0.7444445}
-  m_AnchoredPosition: {x: 1.5208969, y: 69.337204}
+  m_AnchoredPosition: {x: 1.5209045, y: 69.337204}
   m_SizeDelta: {x: 609.5911, y: 70.5783}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1088143288

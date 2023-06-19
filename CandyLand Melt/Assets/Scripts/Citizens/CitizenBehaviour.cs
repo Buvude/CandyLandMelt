@@ -8,12 +8,15 @@ public class CitizenBehaviour : MonoBehaviour
     [SerializeField] private float temperatureDecrease = 5;
     [SerializeField] private float currentTemperature;
     [SerializeField] private float maxTemprature;
+    [SerializeField] private float heatWaveSlow;
     [SerializeField] private HealthBar heatBar;
+    private bool isRemoved;
     
     private void BeginBehaviour() 
     {
         currentTemperature = minTemperature;
         heatBar.SetMaxTemperature(maxTemprature);
+        isRemoved = false;
     }
 
     private void Start()
@@ -59,6 +62,11 @@ public class CitizenBehaviour : MonoBehaviour
         }
     }
 
+    public void SetIsRemoved(bool _isRemoved) 
+    {
+        isRemoved = _isRemoved;
+    }
+
     public float GetMaxTemperature() 
     {
         return maxTemprature;
@@ -69,9 +77,19 @@ public class CitizenBehaviour : MonoBehaviour
         return currentTemperature;
     }
 
+    public float GetHeatWaveSlow() 
+    {
+        return heatWaveSlow;
+    }
+
     public bool IsAlive() 
     {
         return currentTemperature < maxTemprature;
+    }
+
+    public bool IsRemoved() 
+    {
+        return isRemoved;
     }
 
     private void UpdateHeatBar()

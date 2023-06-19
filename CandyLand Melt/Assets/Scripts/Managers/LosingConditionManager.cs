@@ -14,7 +14,7 @@ public static class LosingConditionManager
         if (deadCitizens >= citizensLimit)
         {
             GameManager.Instance.EndGame();
-            SceneManager.LoadScene("GameOverScene");
+            SceneManager.LoadScene(2);
         }
     }
 }
