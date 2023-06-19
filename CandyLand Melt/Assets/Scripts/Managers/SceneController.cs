@@ -8,7 +8,10 @@ public class SceneController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (SceneManager.GetActiveScene() == SceneManager.GetSceneByBuildIndex(0))
+        {
+            GameObject.FindGameObjectWithTag("GameController").GetComponent<Score>().displayHighScore();
+        }
     }
 
     // Update is called once per frame
