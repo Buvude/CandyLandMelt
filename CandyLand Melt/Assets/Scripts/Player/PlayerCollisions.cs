@@ -9,6 +9,7 @@ namespace Player
         [SerializeField] private string citizenTag;
         [SerializeField] private HoldObject holdObject;
         [SerializeField] private Jump jump;
+        [SerializeField] private Canvas keyCanvas;
 
         private void OnTriggerEnter2D(Collider2D collision)
         {
@@ -33,6 +34,7 @@ namespace Player
                 {
                     holdObject.SetInDeliverArea(true);
                     holdObject.SetCitizenToDeliver(collision.GetComponent<CitizenBehaviour>());
+                    keyCanvas.gameObject.SetActive(true);
                     //holdObject.DestroyPickable();
                     //collision.GetComponent<CitizenBehaviour>().RecoverHealth();
                 }
@@ -42,10 +44,8 @@ namespace Player
         {
             if (collision.gameObject.tag == citizenTag)
             {
-                if (holdObject.GetEnoughPickables())
-                {
-                    holdObject.SetInDeliverArea(false);
-                }
+                holdObject.SetInDeliverArea(false);
+                keyCanvas.gameObject.SetActive(false);
             }
         }
     }

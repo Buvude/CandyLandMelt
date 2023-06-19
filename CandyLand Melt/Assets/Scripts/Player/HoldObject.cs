@@ -9,6 +9,7 @@ namespace Player
         [SerializeField] private Transform pickablesHolder;
         [SerializeField] private float distanceBetweenPickables;
         [SerializeField] private float maxPickablesToHold;
+        [SerializeField] private Canvas keyCanvas;
         private CitizenBehaviour _citizenToDeliver;
         private Stack<Transform> pickables;
         private bool _inDeliverArea = false;
@@ -60,6 +61,8 @@ namespace Player
             {
                 _citizenToDeliver.RecoverHealth();
                 DestroyPickable();
+                if (pickables.Count <= 0)
+                    keyCanvas.gameObject.SetActive(false);
             }
         }
     }
