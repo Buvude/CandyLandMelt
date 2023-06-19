@@ -16,14 +16,7 @@ namespace Player
             {
                 holdObject.GrabPickable(collision.gameObject);
             }
-            if (collision.gameObject.tag == citizenTag)
-            {
-                if(holdObject.GetEnoughPickables())
-                {
-                    holdObject.DestroyPickable();
-                    collision.GetComponent<CitizenBehaviour>().RecoverHealth();
-                }
-            }
+            
         }
         private void OnTriggerStay2D(Collider2D collision)
         {
@@ -32,6 +25,26 @@ namespace Player
                 if (collision.transform.position.y < this.transform.position.y)
                 {
                     jump.SetJumpAvailable(true);
+                }
+            }
+            if (collision.gameObject.tag == citizenTag)
+            {
+                if (holdObject.GetEnoughPickables())
+                {
+                    holdObject.SetInDeliverArea(true);
+                    holdObject.SetCitizenToDeliver(collision.GetComponent<CitizenBehaviour>());
+                    //holdObject.DestroyPickable();
+                    //collision.GetComponent<CitizenBehaviour>().RecoverHealth();
+                }
+            }
+        }
+        private void OnTriggerExit2D(Collider2D collision)
+        {
+            if (collision.gameObject.tag == citizenTag)
+            {
+                if (holdObject.GetEnoughPickables())
+                {
+                    holdObject.SetInDeliverArea(false);
                 }
             }
         }

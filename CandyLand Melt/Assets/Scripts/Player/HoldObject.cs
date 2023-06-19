@@ -9,8 +9,10 @@ namespace Player
         [SerializeField] private Transform pickablesHolder;
         [SerializeField] private float distanceBetweenPickables;
         [SerializeField] private float maxPickablesToHold;
+        private CitizenBehaviour _citizenToDeliver;
         private Stack<Transform> pickables;
-        Score _score;
+        private bool _inDeliverArea = false;
+        private Score _score;
 
         private void Start()
         {
@@ -41,6 +43,8 @@ namespace Player
             }
         }
         public bool GetEnoughPickables()  { return (pickables.Count > 0); }
+        public void SetInDeliverArea(bool inDeliverArea)  { _inDeliverArea = inDeliverArea; }
+        public void SetCitizenToDeliver(CitizenBehaviour citizenToDeliver) { _citizenToDeliver = citizenToDeliver; }
         private void UpdatePickables()
         {
             Vector2 pickablePosition = Vector2.zero;
@@ -48,6 +52,14 @@ namespace Player
             {
                 pickablePosition = new Vector2(0, pickablePosition.y + distanceBetweenPickables);
                 current.transform.localPosition = pickablePosition;
+            }
+        }
+        private void Update()
+        {
+            if ((Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift)) && _inDeliverArea && _citizenToDeliver != null)
+            {
+                _citizenToDeliver.RecoverHealth();
+                DestroyPickable();
             }
         }
     }
