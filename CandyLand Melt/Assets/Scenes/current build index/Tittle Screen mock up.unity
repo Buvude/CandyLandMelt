@@ -1875,7 +1875,7 @@ GameObject:
   - component: {fileID: 1706606937}
   m_Layer: 0
   m_Name: EventSystem
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1968,7 +1968,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _score: 0
-  _scoreText: {fileID: 0}
+  _scoreText: {fileID: 1076158313}
   _regularPointValue: 0
   _fileName: 
 --- !u!1 &1834766348
