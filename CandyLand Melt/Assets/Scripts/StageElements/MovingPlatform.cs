@@ -9,4 +9,19 @@ public class MovingPlatform : MonoBehaviour
     [SerializeField] private float directionHorizontal;
     [SerializeField] private float directionVertical;
     [SerializeField] private float angle;
+
+    private void PlatformMoveHorizontal() 
+    {
+
+    }
+
+    private void PlatformMoveVertical() 
+    {
+        
+    }
+
+    private void Update()
+    {
+        
+    }
 }
