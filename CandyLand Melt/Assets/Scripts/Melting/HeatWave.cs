@@ -62,7 +62,7 @@ public class HeatWave : MonoBehaviour
     {
         if (heatIncreaseTimer >= heatIncreaseTime) 
         {
-            if (heatDamage == 0)
+            if (heatDamage <= 1)
                 heatDamage += 1;
             else
                 heatDamage += heatDamage - 1;
