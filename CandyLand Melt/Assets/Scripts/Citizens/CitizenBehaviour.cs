@@ -8,7 +8,8 @@ public class CitizenBehaviour : MonoBehaviour
     [SerializeField] private float temperatureDecrease = 5;
     [SerializeField] private float currentTemperature;
     [SerializeField] private float maxTemprature;
-    [SerializeField] private float heatWaveSlow;
+    [SerializeField] private float heatWaveTimeAdded;
+    [SerializeField] private float heatWaveDamageAdded;
     [SerializeField] private HealthBar heatBar;
     private bool isRemoved;
     
@@ -77,9 +78,14 @@ public class CitizenBehaviour : MonoBehaviour
         return currentTemperature;
     }
 
-    public float GetHeatWaveSlow() 
+    public float GetHeatWaveTimeAdded() 
     {
-        return heatWaveSlow;
+        return heatWaveTimeAdded;
+    }
+
+    public float GetHeatWaveDamageAdded() 
+    {
+        return heatWaveDamageAdded;
     }
 
     public bool IsAlive() 
