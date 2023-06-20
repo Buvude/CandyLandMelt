@@ -4,24 +4,68 @@ using UnityEngine;
 
 public class MovingPlatform : MonoBehaviour
 {
-    [SerializeField] private float PlatformSpeed;
-    [SerializeField] private float PlatformTimer;
-    [SerializeField] private float directionHorizontal;
-    [SerializeField] private float directionVertical;
-    [SerializeField] private float angle;
+    [SerializeField] private List<Transform> pointsToFollow;
+    [SerializeField] private float platformSpeed;
+    private const float POINTREACHEDMAGNITUDE = 0.25f;
+    private int index;
+    private bool goingLeft;
+    private bool reachedNextPoint;
 
-    private void PlatformMoveHorizontal() 
+    private void Awake()
     {
-
+        index = 0;
+        goingLeft = false;
+        reachedNextPoint = false;
     }
 
-    private void PlatformMoveVertical() 
+    private void ChooseNextPoint() 
     {
-        
+        if (reachedNextPoint) 
+        {
+            if (goingLeft) 
+            {
+                index--;
+                if (index < 0) 
+                {
+                    index = 0;
+                    goingLeft = false;
+                }
+            }
+            else 
+            {
+                index++;
+                if (index >= pointsToFollow.Count) 
+                {
+                    index = pointsToFollow.Count - 1;
+                    goingLeft = true;
+                }
+            }
+            reachedNextPoint = false;
+        }
+    }
+
+    private void PlatformMove() 
+    {
+        this.transform.position = Vector3.MoveTowards(this.transform.position, pointsToFollow[index].position, platformSpeed * Time.deltaTime);
+    }
+
+    private void CheckPlatformArrival() 
+    {
+        if (Vector3.Distance(this.transform.position, pointsToFollow[index].position) <= POINTREACHEDMAGNITUDE) 
+        {
+            reachedNextPoint = true;
+        }
+    }
+
+    private void PlatformBehaviour() 
+    {
+        ChooseNextPoint();
+        PlatformMove();
+        CheckPlatformArrival();
     }
 
     private void Update()
     {
-        
+        PlatformBehaviour();
     }
 }
