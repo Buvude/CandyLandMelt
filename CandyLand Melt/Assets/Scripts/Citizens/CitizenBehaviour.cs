@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CitizenBehaviour : MonoBehaviour
@@ -10,7 +8,11 @@ public class CitizenBehaviour : MonoBehaviour
     [SerializeField] private float maxTemprature;
     [SerializeField] private float heatWaveTimeAdded;
     [SerializeField] private float heatWaveDamageAdded;
+    [SerializeField] private Collider2D triggerCollider;
     [SerializeField] private HealthBar heatBar;
+    [SerializeField] private float[] animationTemperatureValues;
+    [SerializeField] private Animator anim;
+    private bool alive = true;
     private bool isRemoved;
     
     private void BeginBehaviour() 
@@ -35,17 +37,25 @@ public class CitizenBehaviour : MonoBehaviour
 
     public void TakeDamage(float damage) 
     {
-        currentTemperature += damage;
-        UpdateHeatBar();
-        Death();
+        if(alive)
+        {
+            currentTemperature += damage;
+            UpdateHeatBar();
+            UpdateAnimationStatus();
+            Death();
+        }
     }
 
     public void RecoverHealth() 
     {
-        currentTemperature -= temperatureDecrease;
-        UpdateHeatBar();
-        if (currentTemperature < minTemperature)
-            FullCooldown();
+        if(alive)
+        {
+            currentTemperature -= temperatureDecrease;
+            UpdateHeatBar();
+            UpdateAnimationStatus();
+            if (currentTemperature < minTemperature)
+                FullCooldown();
+        }
     }
 
     public void FullCooldown() 
@@ -59,7 +69,10 @@ public class CitizenBehaviour : MonoBehaviour
         if (currentTemperature >= maxTemprature && this.gameObject.activeInHierarchy)
         {
             LosingConditionManager.CitizenDied();
-            this.gameObject.SetActive(false);
+            alive = false;
+            triggerCollider.enabled = false;
+            anim.SetBool("Dead", true);
+            //this.gameObject.SetActive(false);
         }
     }
 
@@ -90,7 +103,7 @@ public class CitizenBehaviour : MonoBehaviour
 
     public bool IsAlive() 
     {
-        return currentTemperature < maxTemprature;
+        return alive;
     }
 
     public bool IsRemoved() 
@@ -101,5 +114,15 @@ public class CitizenBehaviour : MonoBehaviour
     private void UpdateHeatBar()
     {
         heatBar.SetTemperature(currentTemperature);
+    }
+    private void UpdateAnimationStatus()
+    {
+        for(int i = 0; i < animationTemperatureValues.Length; i++)
+        {
+            if (currentTemperature >= animationTemperatureValues[i])
+                anim.SetBool("HeatLevel" + (i + 1), true);
+            else
+                anim.SetBool("HeatLevel" + (i + 1), false);
+        }
     }
 }
