@@ -46,6 +46,7 @@ public class Score : MonoBehaviour
 
     public void displayHighScore()
     {
+        LoadScore();
         _scoreText.text = highScore.ToString();
     }
 }
