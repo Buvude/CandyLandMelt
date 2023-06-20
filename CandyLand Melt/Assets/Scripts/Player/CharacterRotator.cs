@@ -14,21 +14,15 @@ public class CharacterRotator : MonoBehaviour
     public void LookLeft()
     {
         Quaternion newQuaternion = new Quaternion();
-        newQuaternion.Set(0.500087261f, 0.500087261f, 0.499912739f, -0.499912739f);
+        newQuaternion.Set(0, 1, 0, 0);
         transform.rotation = newQuaternion;
-
-        //transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y, 90);
-
-
         lookingLeft = true;
     }
     public void LookRight()
     {
         Quaternion newQuaternion = new Quaternion();
-        newQuaternion.Set(-0.500087261f, 0.500087261f, 0.499912739f, 0.499912739f);
+        newQuaternion.Set(0, 0, 0, 1);
         transform.rotation = newQuaternion;
-
-        //transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y, -90);
         lookingLeft = false;
     }
     public void IdleRotation()
@@ -36,13 +30,13 @@ public class CharacterRotator : MonoBehaviour
         if(!lookingLeft)
         {
             Quaternion newQuaternion = new Quaternion();
-            newQuaternion.Set(-0.248887718f, 0.661956489f, 0.661725163f, 0.248974666f);
+            newQuaternion.Set(0, 0, 0, 1);
             transform.rotation = newQuaternion;
         }
         else
         {
             Quaternion newQuaternion = new Quaternion();
-            newQuaternion.Set(0.249009162f, 0.661811531f, 0.661811531f, -0.249009162f);
+            newQuaternion.Set(0, 1, 0, 0);
             transform.rotation = newQuaternion;
         }
     }

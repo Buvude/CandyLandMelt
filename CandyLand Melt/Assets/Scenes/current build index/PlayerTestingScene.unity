@@ -1603,30 +1603,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4563412284663807213, guid: fcb716e4cc26dcd479fd97cecf6edb10, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4563412284663807213, guid: fcb716e4cc26dcd479fd97cecf6edb10, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4563412284663807213, guid: fcb716e4cc26dcd479fd97cecf6edb10, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4563412284663807213, guid: fcb716e4cc26dcd479fd97cecf6edb10, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4563412284663807213, guid: fcb716e4cc26dcd479fd97cecf6edb10, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 4563412284663807213, guid: fcb716e4cc26dcd479fd97cecf6edb10, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5821997579756916193, guid: fcb716e4cc26dcd479fd97cecf6edb10, type: 3}
       propertyPath: m_RootOrder
       value: 4
