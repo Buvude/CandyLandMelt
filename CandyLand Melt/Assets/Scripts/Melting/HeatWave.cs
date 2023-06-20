@@ -12,6 +12,7 @@ public class HeatWave : MonoBehaviour
 {
     [SerializeField] private List<CitizenBehaviour> citizens;
     [SerializeField] private float heatDamage;
+    [SerializeField] private float heatIncreaser;
     [SerializeField] private float damageTime;
     [SerializeField] private float heatIncreaseTime;
     [SerializeField] private SpeedUpText speedUpText;
@@ -62,10 +63,7 @@ public class HeatWave : MonoBehaviour
     {
         if (heatIncreaseTimer >= heatIncreaseTime) 
         {
-            if (heatDamage <= 1)
-                heatDamage += 1;
-            else
-                heatDamage += heatDamage - 1;
+            heatDamage += heatIncreaser;
             speedUpText.ShowChildren(true);
         }
     }
