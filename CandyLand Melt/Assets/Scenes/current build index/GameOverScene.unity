@@ -1288,7 +1288,7 @@ MonoBehaviour:
   _score: 0
   _scoreText: {fileID: 913446880}
   _regularPointValue: 0
-  _fileName: 
+  _fileName: Highscore
 --- !u!1 &1641951372
 GameObject:
   m_ObjectHideFlags: 0
