@@ -194,6 +194,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Citizen 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1440796072014101927, guid: 0f1423834a182b4419288a87f8fe178c, type: 3}
+      propertyPath: animationTemperatureValues.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2700038034611246121, guid: 0f1423834a182b4419288a87f8fe178c, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
