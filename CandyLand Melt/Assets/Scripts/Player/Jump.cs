@@ -5,6 +5,7 @@ namespace Player
     public class Jump : MonoBehaviour
     {
         [Range(1, 10)] public float jumpVelocity = 5;
+        [SerializeField] private Animator anim;
         private Rigidbody2D rb;
         private bool _jumpAvailable = true;
 
@@ -16,6 +17,8 @@ namespace Player
         public void SetJumpAvailable(bool jumpAvailable)
         {
             _jumpAvailable = jumpAvailable;
+            if(jumpAvailable)
+                anim.SetBool("Jumping", false);
         }
 
         private void Update()
@@ -23,6 +26,7 @@ namespace Player
             if (Input.GetKeyDown(KeyCode.Space) && _jumpAvailable)
             {
                 rb.velocity = Vector2.up * jumpVelocity;
+                anim.SetBool("Jumping", true);
                 _jumpAvailable = false;
             }
         }

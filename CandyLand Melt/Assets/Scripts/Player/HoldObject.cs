@@ -10,6 +10,7 @@ namespace Player
         [SerializeField] private float distanceBetweenPickables;
         [SerializeField] private float maxPickablesToHold;
         [SerializeField] private Canvas keyCanvas;
+        [SerializeField] private Animator anim;
         private CitizenBehaviour _citizenToDeliver;
         private Stack<Transform> pickables;
         private bool _inDeliverArea = false;
@@ -64,6 +65,10 @@ namespace Player
                 if (pickables.Count <= 0)
                     keyCanvas.gameObject.SetActive(false);
             }
+            if (pickables.Count > 0)
+                anim.SetBool("Holding", true);
+            else
+                anim.SetBool("Holding", false);
         }
     }
 }

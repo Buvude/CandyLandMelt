@@ -491,6 +491,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpVelocity: 6.5
+  anim: {fileID: 1890707127}
 --- !u!114 &5821997579756916195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -554,6 +555,7 @@ MonoBehaviour:
   distanceBetweenPickables: 1
   maxPickablesToHold: 2
   keyCanvas: {fileID: 8489068100586720541}
+  anim: {fileID: 1890707127}
 --- !u!61 &5821997579756916199
 BoxCollider2D:
   m_ObjectHideFlags: 0
