@@ -26,7 +26,11 @@ namespace Player
             {
                 pickable.GetComponent<Rigidbody2D>().isKinematic = true;
                 pickable.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+                pickable.GetComponent<Rigidbody2D>().freezeRotation = true;
                 pickable.GetComponentInChildren<Collider2D>().enabled = false;
+                Quaternion newQuaternion = new Quaternion();
+                newQuaternion.Set(0, 0, 0, 1);
+                pickable.transform.rotation = newQuaternion;
                 pickables.Push(pickable.transform);
                 pickable.transform.parent = pickablesHolder;
                 UpdatePickables();
@@ -38,6 +42,7 @@ namespace Player
             {
                 Transform toDelete = pickables.Pop();
                 toDelete.GetComponent<Rigidbody2D>().isKinematic = false;
+                toDelete.GetComponent<Rigidbody2D>().freezeRotation = false;
                 toDelete.GetComponentInChildren<Collider2D>().enabled = true;
                 toDelete.GetComponent<PoolObject>().Recycle();
                 UpdatePickables();

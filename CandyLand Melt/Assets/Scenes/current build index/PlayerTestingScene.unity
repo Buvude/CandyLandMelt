@@ -194,10 +194,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Citizen 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1440796072014101927, guid: 0f1423834a182b4419288a87f8fe178c, type: 3}
-      propertyPath: animationTemperatureValues.Array.size
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 2700038034611246121, guid: 0f1423834a182b4419288a87f8fe178c, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1603,13 +1599,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1562904511, guid: fcb716e4cc26dcd479fd97cecf6edb10, type: 3}
-      propertyPath: orthographic size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1562904512, guid: fcb716e4cc26dcd479fd97cecf6edb10, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2
+    - target: {fileID: 4246972279332134257, guid: fcb716e4cc26dcd479fd97cecf6edb10, type: 3}
+      propertyPath: distanceBetweenPickables
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 5821997579756916193, guid: fcb716e4cc26dcd479fd97cecf6edb10, type: 3}
       propertyPath: m_RootOrder
