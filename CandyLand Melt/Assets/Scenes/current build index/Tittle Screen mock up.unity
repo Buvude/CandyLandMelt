@@ -158,8 +158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.14222223}
   m_AnchorMax: {x: 0.7425, y: 1}
-  m_AnchoredPosition: {x: 10.679543, y: 126.16073}
-  m_SizeDelta: {x: 721.35895, y: 107.6526}
+  m_AnchoredPosition: {x: -188.76959, y: 126.16072}
+  m_SizeDelta: {x: 322.4606, y: 107.6526}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &31655864
 MonoBehaviour:
@@ -208,7 +208,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 85.3
+  m_fontSize: 63.25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1342,8 +1342,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 274, y: 4}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 245.23, y: -2.118}
+  m_SizeDelta: {x: 300.76, y: 451.3456}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1140323271
 MonoBehaviour:
@@ -1365,22 +1365,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'person 1
-
-    person 2
-
-    person 3
-
-    person 4
-
-    person 5
-
-    person
-    6
-
-    person 7
-
-    person 8'
+  m_text: "Credits:\nCharles George Kucharzak; Game & Level Designer, Art Director,
+    Producer\nDavid Eisenberg producer, auxiliary programmer, and auxiliary designer\nIan
+    Vandemeer, Concept Artist\r\nRodrigo Diaz Klipphan, Environment Programmer\nMarcio
+    daSilva Gon\xE7alves - 3d artist and Tech artist\r\nL\xE9o Laluc - 3D Animator/Rigger\nperson
+    7\nperson 8"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1407,7 +1396,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27
+  m_fontSize: 23.1
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1443,7 +1432,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -70.02675, y: 0, z: -22.758736, w: -197.82571}
+  m_margin: {x: -3.9517212, y: 0, z: 2.9372177, w: 0.39981076}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
