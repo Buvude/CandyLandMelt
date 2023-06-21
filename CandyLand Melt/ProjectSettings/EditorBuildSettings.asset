@@ -14,13 +14,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/current build index/GameOverScene.unity
     guid: 9d72b2802fe117748a25a8608b7760cb
-  - enabled: 0
-    path: Assets/Scenes/current build index/PlayerTestingScene.unity
-    guid: d058742a7ee92e342bcfddc925f12e05
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
-    path: Assets/Scenes/GameOverManagementScene.unity
-    guid: 1693d7d49cfeb98438157f32d21f5126
   m_configObjects: {}
