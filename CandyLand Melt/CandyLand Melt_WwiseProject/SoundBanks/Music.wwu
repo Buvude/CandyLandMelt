@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{834A9C56-B731-4BB6-BB58-C3279478570C}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="Music" ID="{834A9C56-B731-4BB6-BB58-C3279478570C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Music" ID="{FF06B52A-5CEC-4530-BBAA-BAD683D230FA}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Chase LOOP" ID="{691E7010-40EB-4C77-9CAF-C7811DB39056}" WorkUnitID="{17DAFC9F-CFC7-4B66-81DE-6D66AD61C84A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="StartMusic" ID="{74E9AF96-4D77-4EDE-AF2F-B996D97EA78F}" WorkUnitID="{ED9621D6-C465-48EA-976B-F1BA86D5E478}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
