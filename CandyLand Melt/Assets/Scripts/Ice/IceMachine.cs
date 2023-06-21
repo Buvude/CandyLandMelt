@@ -4,6 +4,7 @@ public class IceMachine : MonoBehaviour
 {
     [SerializeField] private float timeBetweenSpawns;
     [SerializeField] private string poolName;
+    [SerializeField] private Animator anim;
     private PoolManager poolManager;
     private Pool icePool;
     private GameTime timer;
@@ -27,6 +28,15 @@ public class IceMachine : MonoBehaviour
                 timer.StopAndReset();
                 timer.Start();
             }
+            /*
+            int actives = icePool.GetObjectCount();
+            int max = icePool.GetMaxNumber();
+            if (icePool.GetObjectCount() >= icePool.GetMaxNumber())
+            {
+                anim.SetBool("Open", false);
+            }
+            else
+                anim.SetBool("Open", true);*/
         }
     }
 }

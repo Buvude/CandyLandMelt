@@ -7,8 +7,11 @@ public class Pool : MonoBehaviour
     public int number; //The maximum number of times that the object will appear at the same time
     private List<PoolObject> poolList = new List<PoolObject>();
     int recycledObjectsNumber = 0;
+    int activeObjects = 0;
+    private List<PoolObject> Instcances;
     private void Awake()
     {
+        Instcances = new List<PoolObject>();
         for (int i = 0; i < number; i++)
         {
             PoolObject po = CreateObject();
@@ -22,6 +25,7 @@ public class Pool : MonoBehaviour
             PoolObject po = poolList[0];
             po.gameObject.SetActive(true);
             poolList.RemoveAt(0);
+            activeObjects++;
             return po;
         }
         else
@@ -38,6 +42,7 @@ public class Pool : MonoBehaviour
         poolList.Add(po);
         po.gameObject.SetActive(false);
         recycledObjectsNumber++;
+        activeObjects--;
     }
     public int GetRecycledObjectsNumber()
     {
@@ -49,7 +54,17 @@ public class Pool : MonoBehaviour
     }
     public int GetObjectCount() // devuelve la cantidad de objetos activos
     {
-        return poolList.Count;
+        int activeInstances = 0;
+        foreach(PoolObject current in Instcances)
+        {
+            if (current.isActiveAndEnabled)
+                activeInstances++;
+        }
+        return activeInstances;
+    }
+    public int GetMaxNumber()
+    {
+        return number;
     }
     private PoolObject CreateObject()
     {
@@ -57,6 +72,7 @@ public class Pool : MonoBehaviour
         PoolObject po = go.AddComponent<PoolObject>();
         po.SetPool(this);
         go.SetActive(false);
+        Instcances.Add(po);
         return po;
     }
 }
