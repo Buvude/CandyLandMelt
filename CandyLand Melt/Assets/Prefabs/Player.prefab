@@ -536,6 +536,7 @@ MonoBehaviour:
   floorTag: Floor
   pickableTag: Pickable
   citizenTag: Citizen
+  movingFloorTag: MovingFloor
   holdObject: {fileID: 4246972279332134257}
   jump: {fileID: 5821997579756916192}
   keyCanvas: {fileID: 8489068100586720541}
