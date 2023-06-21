@@ -50,3 +50,6 @@ MonoBehaviour:
   - {fileID: 0}
   heatDamage: 5
   damageTime: 2
+  heatDamageIncrease: 2
+  heatIncreaseTime: 10
+  speedUpText: {fileID: 0}

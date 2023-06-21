@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Tittle Screen mock up.unity
+    path: Assets/Scenes/current build index/Tittle Screen mock up.unity
     guid: 65d1843f125a66746b859e20d57d711c
   - enabled: 1
-    path: Assets/Scenes/PlayerTestingScene.unity
+    path: Assets/Scenes/current build index/PlayerTestingScene.unity
     guid: d058742a7ee92e342bcfddc925f12e05
   - enabled: 1
-    path: Assets/Scenes/GameOverScene.unity
+    path: Assets/Scenes/current build index/GameOverScene.unity
     guid: 9d72b2802fe117748a25a8608b7760cb
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity

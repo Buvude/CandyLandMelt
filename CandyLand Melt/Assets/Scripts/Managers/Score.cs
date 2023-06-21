@@ -43,4 +43,10 @@ public class Score : MonoBehaviour
         if(_score > highScore)
             File.WriteAllText(Application.persistentDataPath + "/" + _fileName, _score.ToString());
     }
+
+    public void displayHighScore()
+    {
+        LoadScore();
+        _scoreText.text = highScore.ToString();
+    }
 }
