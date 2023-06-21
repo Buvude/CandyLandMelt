@@ -7,6 +7,7 @@ namespace Player
         [SerializeField] private string floorTag;
         [SerializeField] private string pickableTag;
         [SerializeField] private string citizenTag;
+        [SerializeField] private string movingFloorTag;
         [SerializeField] private HoldObject holdObject;
         [SerializeField] private Jump jump;
         [SerializeField] private Canvas keyCanvas;
@@ -17,7 +18,10 @@ namespace Player
             {
                 holdObject.GrabPickable(collision.gameObject);
             }
-            
+            if (collision.gameObject.tag == movingFloorTag)
+            {
+                this.gameObject.transform.parent = collision.gameObject.transform;
+            }
         }
         private void OnTriggerStay2D(Collider2D collision)
         {
@@ -46,6 +50,10 @@ namespace Player
             {
                 holdObject.SetInDeliverArea(false);
                 keyCanvas.gameObject.SetActive(false);
+            }
+            if (collision.gameObject.tag == movingFloorTag)
+            {
+                this.gameObject.transform.parent = null;
             }
         }
     }
