@@ -1,6 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	3827058668	StartMusic			\Music\StartMusic	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	376985727	Chase LOOP	C:\Users\benja\Desktop\Widow Games\CandyLandMelt\CandyLand Melt\CandyLand Melt_WwiseProject\.cache\Windows\SFX\Chase LOOP_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Background Music\Chase LOOP\Chase LOOP		5644900
-
