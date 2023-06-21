@@ -21,6 +21,7 @@ namespace Player
             if (collision.gameObject.tag == movingFloorTag)
             {
                 this.gameObject.transform.parent = collision.gameObject.transform;
+                jump.SetJumpAvailable(true);
             }
         }
         private void OnTriggerStay2D(Collider2D collision)

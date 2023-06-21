@@ -7,6 +7,7 @@ TagManager:
   - Floor
   - Pickable
   - Citizen
+  - MovingFloor
   layers:
   - Default
   - TransparentFX
