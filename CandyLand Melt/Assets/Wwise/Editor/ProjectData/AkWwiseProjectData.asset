@@ -66,22 +66,8 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 3b77acb48189ef4b8531e6cd27d06daf
     GuidInternal: 
-    m_lastTime: -8585142013502997891
-    List:
-    - name: Music
-      guid: c70cf900d1296947b20a1d46625fbb6e
-      id: 3991942870
-      PathAndIcons:
-      - ElementName: SoundBanks
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 3b77acb48189ef4b8531e6cd27d06daf
-      - ElementName: Music
-        ObjectType: 7
-        guid: c70cf900d1296947b20a1d46625fbb6e
-      Path: SoundBanks\Default Work Unit\Music
+    m_lastTime: -8585142012275845999
+    List: []
   - PhysicalPath: SoundBanks\Music work unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
@@ -93,8 +79,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Music work unit
     guid: e2b10359a07d194b8d3c7fea3cae33e2
     GuidInternal: 
-    m_lastTime: -8585142013189992566
-    List: []
+    m_lastTime: -8585141998211921478
+    List:
+    - name: MusicSoundbank
+      guid: 52876ef4b3620d428534a7559d1223f6
+      id: 3427827313
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Music work unit
+        ObjectType: 12
+        guid: e2b10359a07d194b8d3c7fea3cae33e2
+      - ElementName: MusicSoundbank
+        ObjectType: 7
+        guid: 52876ef4b3620d428534a7559d1223f6
+      Path: SoundBanks\Music work unit\MusicSoundbank
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -120,7 +120,7 @@ MonoBehaviour:
     ParentPath: Events\Music
     guid: 40edf9e5c1d5324a93c5bcb7d7ebf61a
     GuidInternal: 
-    m_lastTime: -8585142022615772014
+    m_lastTime: -8585141998213631852
     List:
     - name: StartMusic
       guid: e7d9e177d509414297466990ace37e5b
@@ -196,7 +196,7 @@ MonoBehaviour:
     m_lastTime: -8585142030398977582
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000070000000b0000000c000000
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
