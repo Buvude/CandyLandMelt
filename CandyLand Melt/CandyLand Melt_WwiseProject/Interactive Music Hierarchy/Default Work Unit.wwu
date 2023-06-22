@@ -360,13 +360,9 @@
 					</TransitionList>
 					<Playlist>
 						<MusicPlaylistItem Name="" ID="{36322813-DFA3-476A-B648-D7BA4551ACE0}" ShortID="1030607359">
-							<PropertyList>
-								<Property Name="LoopCount" Type="int16" Value="0"/>
-							</PropertyList>
 							<ChildrenList>
 								<MusicPlaylistItem Name="" ID="{496CA400-934C-4800-8FEC-2BE6472C569B}" ShortID="945353501">
 									<PropertyList>
-										<Property Name="LoopCount" Type="int16" Value="0"/>
 										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 									</PropertyList>
 									<SegmentRef Name="Platform Action LOOP END" ID="{C17BFD17-9B1D-4E3D-977E-7D0CF1F87058}"/>

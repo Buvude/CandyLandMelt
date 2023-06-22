@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="532728782" Type="User" Language="SFX" Hash="{4C63C0F8-72EC-CFD3-FC23-08660F4AEF17}">
+		<SoundBank Id="532728782" Type="User" Language="SFX" Hash="{722BF0E5-A84C-00ED-E5F5-69BC27110BA7}">
 			<ShortName>Game_Over_Music_Soundbank</ShortName>
 			<Path>Game_Over_Music_Soundbank.bnk</Path>
 			<Media>
@@ -19,7 +19,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3903099812" Name="StartGameOverMusic" DurationType="Infinite">
+				<Event Id="3903099812" Name="StartGameOverMusic" DurationType="OneShot" DurationMin="3.428594" DurationMax="3.428594">
 					<MediaRefs>
 						<MediaRef Id="699290306"/>
 					</MediaRefs>
@@ -74,5 +74,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D129D1AA-EB08-9497-5D3A-8A329AF60DC1}</FileHash>
+	<FileHash>{1BAE9AD4-9BB7-DCDD-89DA-8A8C15CD5DC2}</FileHash>
 </SoundBanksInfo>
