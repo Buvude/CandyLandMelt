@@ -33,6 +33,7 @@ namespace Player
                 pickable.transform.rotation = newQuaternion;
                 pickables.Push(pickable.transform);
                 pickable.transform.parent = pickablesHolder;
+                AkSoundEngine.PostEvent("Pickup", this.gameObject);
                 UpdatePickables();
             }
         }

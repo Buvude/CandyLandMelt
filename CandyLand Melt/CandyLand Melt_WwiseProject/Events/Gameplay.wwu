@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6721329E-E6E1-4F1A-B190-E24979953990}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Gameplay" ID="{6721329E-E6E1-4F1A-B190-E24979953990}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Pickup" ID="{CF1B5D67-0CB0-401A-9B14-816E1360841B}">
+					<ChildrenList>
+						<Action Name="" ID="{F19D1A2B-A7A1-4FC7-A443-ADC6BE05ACF3}" ShortID="449007171">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pickup" ID="{1753F8DE-C938-4F28-B574-643A2A1D31A5}" WorkUnitID="{06CDC5D1-9D00-4BF7-8E4A-C3B0C00B0E7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

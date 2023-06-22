@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3978245845	Pickup			\Gameplay\Pickup	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	223249804	POP_Mouth_Darker_mono	C:\Users\benja\Desktop\Widow Games\CandyLandMelt\CandyLand Melt\CandyLand Melt_WwiseProject\.cache\Mac\SFX\POP_Mouth_Darker_mono_10C4C929.wem		\Actor-Mixer Hierarchy\Sound Effects\Pickup\POP_Mouth_Darker_mono		11668
+	427079896	POP_Mouth_mono	C:\Users\benja\Desktop\Widow Games\CandyLandMelt\CandyLand Melt\CandyLand Melt_WwiseProject\.cache\Mac\SFX\POP_Mouth_mono_10C4C929.wem		\Actor-Mixer Hierarchy\Sound Effects\Pickup\POP_Mouth_mono		9740
+

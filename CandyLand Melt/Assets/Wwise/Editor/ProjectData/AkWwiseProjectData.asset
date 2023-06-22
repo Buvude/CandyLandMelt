@@ -68,6 +68,19 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585142012275845999
     List: []
+  - PhysicalPath: SoundBanks\Gameplay work unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Gameplay work unit
+      ObjectType: 12
+      guid: 736c50fa525658469eb1e3fc138c6a9e
+    ParentPath: SoundBanks\Gameplay work unit
+    guid: 736c50fa525658469eb1e3fc138c6a9e
+    GuidInternal: 
+    m_lastTime: -8585141394769480926
+    List: []
   - PhysicalPath: SoundBanks\Music work unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
@@ -136,6 +149,19 @@ MonoBehaviour:
     guid: 51564a022134864fa5e48d34cca368de
     GuidInternal: 
     m_lastTime: -8585142022843333068
+    List: []
+  - PhysicalPath: Events\Gameplay.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Gameplay
+      ObjectType: 12
+      guid: 9e322167e1e61a4fb190e24979953990
+    ParentPath: Events\Gameplay
+    guid: 9e322167e1e61a4fb190e24979953990
+    GuidInternal: 
+    m_lastTime: -8585141396356608634
     List: []
   - PhysicalPath: Events\Music.wwu
     PathAndIcons:
@@ -258,7 +284,7 @@ MonoBehaviour:
     m_lastTime: -8585142030398977582
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0d0000001d000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
