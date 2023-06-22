@@ -79,7 +79,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Music work unit
     guid: e2b10359a07d194b8d3c7fea3cae33e2
     GuidInternal: 
-    m_lastTime: -8585141986917801433
+    m_lastTime: -8585141972013725938
     List:
     - name: Game_Over_Music_Soundbank
       guid: a10844f74a7e3a4287058371ec072cc3
@@ -148,7 +148,7 @@ MonoBehaviour:
     ParentPath: Events\Music
     guid: 40edf9e5c1d5324a93c5bcb7d7ebf61a
     GuidInternal: 
-    m_lastTime: -8585141986917831444
+    m_lastTime: -8585141972015486346
     List:
     - name: StartGameOverMusic
       guid: 64ddd1e3d724e548ab21314dac041418
@@ -258,7 +258,7 @@ MonoBehaviour:
     m_lastTime: -8585142030398977582
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000005000000070000000b0000000c0000000d0000000e000000
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
