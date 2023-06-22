@@ -65,6 +65,7 @@ public class HeatWave : MonoBehaviour
         {
             heatDamage += heatIncreaser;
             speedUpText.ShowChildren(true);
+            AkSoundEngine.PostEvent("FasterAlarm", this.gameObject);
         }
     }
 

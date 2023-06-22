@@ -1,0 +1,23 @@
+Event	ID	Name			Wwise Object Path	Notes
+	621108255	Step			\Gameplay\Step	
+	2242162708	Deliver			\Gameplay\Deliver	
+	3473109157	FasterAlarm			\Gameplay\FasterAlarm	
+	3833651337	Jump			\Gameplay\Jump	
+	3978245845	Pickup			\Gameplay\Pickup	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	41739279	FOOTSTEP_Trainers_Asphalt_Run_RR3_mono	C:\Users\benja\Desktop\Widow Games\CandyLandMelt\CandyLand Melt\CandyLand Melt_WwiseProject\.cache\Mac\SFX\FOOTSTEP_Trainers_Asphalt_Run_RR3_mono_10C4C929.wem		\Actor-Mixer Hierarchy\Sound Effects\Steps\FOOTSTEP_Trainers_Asphalt_Run_RR3_mono		29956
+	191044085	FOOTSTEP_Trainers_Asphalt_Run_RR5_mono	C:\Users\benja\Desktop\Widow Games\CandyLandMelt\CandyLand Melt\CandyLand Melt_WwiseProject\.cache\Mac\SFX\FOOTSTEP_Trainers_Asphalt_Run_RR5_mono_10C4C929.wem		\Actor-Mixer Hierarchy\Sound Effects\Steps\FOOTSTEP_Trainers_Asphalt_Run_RR5_mono		35776
+	223249804	POP_Mouth_Darker_mono	C:\Users\benja\Desktop\Widow Games\CandyLandMelt\CandyLand Melt\CandyLand Melt_WwiseProject\.cache\Mac\SFX\POP_Mouth_Darker_mono_10C4C929.wem		\Actor-Mixer Hierarchy\Sound Effects\Pickup\POP_Mouth_Darker_mono		11668
+	319843405	FOOTSTEP_Trainers_Asphalt_Run_RR1_mono	C:\Users\benja\Desktop\Widow Games\CandyLandMelt\CandyLand Melt\CandyLand Melt_WwiseProject\.cache\Mac\SFX\FOOTSTEP_Trainers_Asphalt_Run_RR1_mono_10C4C929.wem		\Actor-Mixer Hierarchy\Sound Effects\Steps\FOOTSTEP_Trainers_Asphalt_Run_RR1_mono		34450
+	323753066	FOOTSTEPS_Trainers_Asphalt_Run_x8_loop_mono	C:\Users\benja\Desktop\Widow Games\CandyLandMelt\CandyLand Melt\CandyLand Melt_WwiseProject\.cache\Mac\SFX\FOOTSTEPS_Trainers_Asphalt_Run_x8_loop_mono_10C4C929.wem		\Actor-Mixer Hierarchy\Sound Effects\Steps\FOOTSTEPS_Trainers_Asphalt_Run_x8_loop_mono		265562
+	350544920	8BIT_RETRO_Jump_Glide_Up_Dual_Tone_Bounce_Deep_Fast_mono	C:\Users\benja\Desktop\Widow Games\CandyLandMelt\CandyLand Melt\CandyLand Melt_WwiseProject\.cache\Mac\SFX\8BIT_RETRO_Jump_Glide_Up_Dual_Tone_Bounce_Deep_Fast_mono_10C4C929.wem		\Actor-Mixer Hierarchy\Sound Effects\8BIT_RETRO_Jump_Glide_Up_Dual_Tone_Bounce_Deep_Fast_mono		14310
+	354923184	FOOTSTEP_Trainers_Asphalt_Run_RR7_mono	C:\Users\benja\Desktop\Widow Games\CandyLandMelt\CandyLand Melt\CandyLand Melt_WwiseProject\.cache\Mac\SFX\FOOTSTEP_Trainers_Asphalt_Run_RR7_mono_10C4C929.wem		\Actor-Mixer Hierarchy\Sound Effects\Steps\FOOTSTEP_Trainers_Asphalt_Run_RR7_mono		33660
+	427079896	POP_Mouth_mono	C:\Users\benja\Desktop\Widow Games\CandyLandMelt\CandyLand Melt\CandyLand Melt_WwiseProject\.cache\Mac\SFX\POP_Mouth_mono_10C4C929.wem		\Actor-Mixer Hierarchy\Sound Effects\Pickup\POP_Mouth_mono		9740
+	589328802	ALARM_Fast_High_Pitch_Echo_loop_stereo	C:\Users\benja\Desktop\Widow Games\CandyLandMelt\CandyLand Melt\CandyLand Melt_WwiseProject\.cache\Mac\SFX\ALARM_Fast_High_Pitch_Echo_loop_stereo_10C4C929.wem		\Actor-Mixer Hierarchy\Sound Effects\ALARM_Fast_High_Pitch_Echo_loop_stereo		54964
+	651676773	FOOTSTEP_Trainers_Asphalt_Run_RR8_mono	C:\Users\benja\Desktop\Widow Games\CandyLandMelt\CandyLand Melt\CandyLand Melt_WwiseProject\.cache\Mac\SFX\FOOTSTEP_Trainers_Asphalt_Run_RR8_mono_10C4C929.wem		\Actor-Mixer Hierarchy\Sound Effects\Steps\FOOTSTEP_Trainers_Asphalt_Run_RR8_mono		33042
+	724137651	FOOTSTEP_Trainers_Asphalt_Run_RR2_mono	C:\Users\benja\Desktop\Widow Games\CandyLandMelt\CandyLand Melt\CandyLand Melt_WwiseProject\.cache\Mac\SFX\FOOTSTEP_Trainers_Asphalt_Run_RR2_mono_10C4C929.wem		\Actor-Mixer Hierarchy\Sound Effects\Steps\FOOTSTEP_Trainers_Asphalt_Run_RR2_mono		31308
+	802283516	EAT_Apple_Bite_01_mono	C:\Users\benja\Desktop\Widow Games\CandyLandMelt\CandyLand Melt\CandyLand Melt_WwiseProject\.cache\Mac\SFX\EAT_Apple_Bite_01_mono_10C4C929.wem		\Actor-Mixer Hierarchy\Sound Effects\EAT_Apple_Bite_01_mono		55854
+	829887607	FOOTSTEP_Trainers_Asphalt_Run_RR6_mono	C:\Users\benja\Desktop\Widow Games\CandyLandMelt\CandyLand Melt\CandyLand Melt_WwiseProject\.cache\Mac\SFX\FOOTSTEP_Trainers_Asphalt_Run_RR6_mono_10C4C929.wem		\Actor-Mixer Hierarchy\Sound Effects\Steps\FOOTSTEP_Trainers_Asphalt_Run_RR6_mono		36600
+	880524309	FOOTSTEP_Trainers_Asphalt_Run_RR4_mono	C:\Users\benja\Desktop\Widow Games\CandyLandMelt\CandyLand Melt\CandyLand Melt_WwiseProject\.cache\Mac\SFX\FOOTSTEP_Trainers_Asphalt_Run_RR4_mono_10C4C929.wem		\Actor-Mixer Hierarchy\Sound Effects\Steps\FOOTSTEP_Trainers_Asphalt_Run_RR4_mono		31602
+

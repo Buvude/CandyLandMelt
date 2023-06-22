@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="532728782" Type="User" Language="SFX" Hash="{722BF0E5-A84C-00ED-E5F5-69BC27110BA7}">
+		<SoundBank Id="532728782" Type="User" Language="SFX" Hash="{6F52B280-1485-6ECA-2D3C-DDFA641F211B}">
 			<ShortName>Game_Over_Music_Soundbank</ShortName>
 			<Path>Game_Over_Music_Soundbank.bnk</Path>
 			<Media>
@@ -26,7 +26,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1311041530" Type="User" Language="SFX" Hash="{9B3BCD11-ED56-CC10-DAC6-D6EBC9C33606}">
+		<SoundBank Id="1311041530" Type="User" Language="SFX" Hash="{176914E2-8845-DD5A-2E86-77B7CB44553A}">
 			<ShortName>Menu_Music_SoundBank</ShortName>
 			<Path>Menu_Music_SoundBank.bnk</Path>
 			<Media>
@@ -56,6 +56,104 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
+		<SoundBank Id="2383081195" Type="User" Language="SFX" Hash="{C3EB0F1D-92E1-47F1-D912-CB7C2A8069B7}">
+			<ShortName>Gameplay_Soundbank</ShortName>
+			<Path>Gameplay_Soundbank.bnk</Path>
+			<Media>
+				<File Id="41739279" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOOTSTEP_Trainers_Asphalt_Run_RR3_mono.wav</ShortName>
+					<CachePath>SFX/FOOTSTEP_Trainers_Asphalt_Run_RR3_mono_10C4C929.wem</CachePath>
+				</File>
+				<File Id="191044085" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOOTSTEP_Trainers_Asphalt_Run_RR5_mono.wav</ShortName>
+					<CachePath>SFX/FOOTSTEP_Trainers_Asphalt_Run_RR5_mono_10C4C929.wem</CachePath>
+				</File>
+				<File Id="223249804" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>POP_Mouth_Darker_mono.wav</ShortName>
+					<CachePath>SFX/POP_Mouth_Darker_mono_10C4C929.wem</CachePath>
+				</File>
+				<File Id="319843405" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOOTSTEP_Trainers_Asphalt_Run_RR1_mono.wav</ShortName>
+					<CachePath>SFX/FOOTSTEP_Trainers_Asphalt_Run_RR1_mono_10C4C929.wem</CachePath>
+				</File>
+				<File Id="323753066" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOOTSTEPS_Trainers_Asphalt_Run_x8_loop_mono.wav</ShortName>
+					<CachePath>SFX/FOOTSTEPS_Trainers_Asphalt_Run_x8_loop_mono_10C4C929.wem</CachePath>
+				</File>
+				<File Id="350544920" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>8BIT_RETRO_Jump_Glide_Up_Dual_Tone_Bounce_Deep_Fast_mono.wav</ShortName>
+					<CachePath>SFX/8BIT_RETRO_Jump_Glide_Up_Dual_Tone_Bounce_Deep_Fast_mono_10C4C929.wem</CachePath>
+				</File>
+				<File Id="354923184" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOOTSTEP_Trainers_Asphalt_Run_RR7_mono.wav</ShortName>
+					<CachePath>SFX/FOOTSTEP_Trainers_Asphalt_Run_RR7_mono_10C4C929.wem</CachePath>
+				</File>
+				<File Id="427079896" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>POP_Mouth_mono.wav</ShortName>
+					<CachePath>SFX/POP_Mouth_mono_10C4C929.wem</CachePath>
+				</File>
+				<File Id="589328802" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ALARM_Fast_High_Pitch_Echo_loop_stereo.wav</ShortName>
+					<CachePath>SFX/ALARM_Fast_High_Pitch_Echo_loop_stereo_10C4C929.wem</CachePath>
+				</File>
+				<File Id="651676773" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOOTSTEP_Trainers_Asphalt_Run_RR8_mono.wav</ShortName>
+					<CachePath>SFX/FOOTSTEP_Trainers_Asphalt_Run_RR8_mono_10C4C929.wem</CachePath>
+				</File>
+				<File Id="724137651" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOOTSTEP_Trainers_Asphalt_Run_RR2_mono.wav</ShortName>
+					<CachePath>SFX/FOOTSTEP_Trainers_Asphalt_Run_RR2_mono_10C4C929.wem</CachePath>
+				</File>
+				<File Id="802283516" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>EAT_Apple_Bite_01_mono.wav</ShortName>
+					<CachePath>SFX/EAT_Apple_Bite_01_mono_10C4C929.wem</CachePath>
+				</File>
+				<File Id="829887607" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOOTSTEP_Trainers_Asphalt_Run_RR6_mono.wav</ShortName>
+					<CachePath>SFX/FOOTSTEP_Trainers_Asphalt_Run_RR6_mono_10C4C929.wem</CachePath>
+				</File>
+				<File Id="880524309" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOOTSTEP_Trainers_Asphalt_Run_RR4_mono.wav</ShortName>
+					<CachePath>SFX/FOOTSTEP_Trainers_Asphalt_Run_RR4_mono_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2242162708" Name="Deliver" DurationType="OneShot" DurationMin="0.6321769" DurationMax="0.6321769">
+					<MediaRefs>
+						<MediaRef Id="802283516"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3473109157" Name="FasterAlarm" DurationType="OneShot" DurationMin="0.8119427" DurationMax="0.8119427">
+					<MediaRefs>
+						<MediaRef Id="589328802"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3833651337" Name="Jump" DurationType="OneShot" DurationMin="0.16115646" DurationMax="0.16115646">
+					<MediaRefs>
+						<MediaRef Id="350544920"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3978245845" Name="Pickup" DurationType="OneShot" DurationMin="0.1093424" DurationMax="0.13120182">
+					<MediaRefs>
+						<MediaRef Id="223249804"/>
+						<MediaRef Id="427079896"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="621108255" Name="Step" DurationType="OneShot" DurationMin="0.33800453" DurationMax="3.0080044">
+					<MediaRefs>
+						<MediaRef Id="41739279"/>
+						<MediaRef Id="191044085"/>
+						<MediaRef Id="319843405"/>
+						<MediaRef Id="323753066"/>
+						<MediaRef Id="354923184"/>
+						<MediaRef Id="651676773"/>
+						<MediaRef Id="724137651"/>
+						<MediaRef Id="829887607"/>
+						<MediaRef Id="880524309"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 		<SoundBank Id="3427827313" Type="User" Language="SFX" Hash="{70C41D8C-793A-CF57-F407-D9730B157BBE}">
 			<ShortName>MusicSoundbank</ShortName>
 			<Path>MusicSoundbank.bnk</Path>
@@ -74,5 +172,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{19B5737D-0A95-9E19-1995-0212487788D6}</FileHash>
+	<FileHash>{1C66FA5A-F1E0-7136-8DEE-B9D23FEF2531}</FileHash>
 </SoundBanksInfo>

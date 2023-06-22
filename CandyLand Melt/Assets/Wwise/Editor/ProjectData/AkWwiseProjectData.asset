@@ -68,6 +68,33 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585141368865210034
     List: []
+  - PhysicalPath: SoundBanks\Gameplay work unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Gameplay work unit
+      ObjectType: 12
+      guid: 736c50fa525658469eb1e3fc138c6a9e
+    ParentPath: SoundBanks\Gameplay work unit
+    guid: 736c50fa525658469eb1e3fc138c6a9e
+    GuidInternal: 
+    m_lastTime: -8585141343464674482
+    List:
+    - name: Gameplay_Soundbank
+      guid: 02aef9897f6ff24da20d12ef5e696d56
+      id: 2383081195
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Gameplay work unit
+        ObjectType: 12
+        guid: 736c50fa525658469eb1e3fc138c6a9e
+      - ElementName: Gameplay_Soundbank
+        ObjectType: 7
+        guid: 02aef9897f6ff24da20d12ef5e696d56
+      Path: SoundBanks\Gameplay work unit\Gameplay_Soundbank
   - PhysicalPath: SoundBanks\Music work unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
@@ -137,6 +164,87 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585141368866406892
     List: []
+  - PhysicalPath: Events\Gameplay.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Gameplay
+      ObjectType: 12
+      guid: 9e322167e1e61a4fb190e24979953990
+    ParentPath: Events\Gameplay
+    guid: 9e322167e1e61a4fb190e24979953990
+    GuidInternal: 
+    m_lastTime: -8585141343464694497
+    List:
+    - name: Deliver
+      guid: be18ab650c555144906860c40644954d
+      id: 2242162708
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Gameplay
+        ObjectType: 12
+        guid: 9e322167e1e61a4fb190e24979953990
+      - ElementName: Deliver
+        ObjectType: 3
+        guid: be18ab650c555144906860c40644954d
+      Path: Events\Gameplay\Deliver
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Jump
+      guid: ad7c1043aa4dd6438cee56d16a6343bc
+      id: 3833651337
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Gameplay
+        ObjectType: 12
+        guid: 9e322167e1e61a4fb190e24979953990
+      - ElementName: Jump
+        ObjectType: 3
+        guid: ad7c1043aa4dd6438cee56d16a6343bc
+      Path: Events\Gameplay\Jump
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Pickup
+      guid: 675d1bcfb00c1a409b14816e1360841b
+      id: 3978245845
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Gameplay
+        ObjectType: 12
+        guid: 9e322167e1e61a4fb190e24979953990
+      - ElementName: Pickup
+        ObjectType: 3
+        guid: 675d1bcfb00c1a409b14816e1360841b
+      Path: Events\Gameplay\Pickup
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Step
+      guid: 4827520ced35a342b7438bea4e156b16
+      id: 621108255
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Gameplay
+        ObjectType: 12
+        guid: 9e322167e1e61a4fb190e24979953990
+      - ElementName: Step
+        ObjectType: 3
+        guid: 4827520ced35a342b7438bea4e156b16
+      Path: Events\Gameplay\Step
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\Music.wwu
     PathAndIcons:
     - ElementName: Events
@@ -258,7 +366,7 @@ MonoBehaviour:
     m_lastTime: -8585141368865200063
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0d0000000f000000110000001d000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

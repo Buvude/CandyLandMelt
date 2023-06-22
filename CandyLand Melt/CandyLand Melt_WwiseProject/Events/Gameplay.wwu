@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6721329E-E6E1-4F1A-B190-E24979953990}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Gameplay" ID="{6721329E-E6E1-4F1A-B190-E24979953990}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Pickup" ID="{CF1B5D67-0CB0-401A-9B14-816E1360841B}">
+					<ChildrenList>
+						<Action Name="" ID="{F19D1A2B-A7A1-4FC7-A443-ADC6BE05ACF3}" ShortID="449007171">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pickup" ID="{1753F8DE-C938-4F28-B574-643A2A1D31A5}" WorkUnitID="{06CDC5D1-9D00-4BF7-8E4A-C3B0C00B0E7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Deliver" ID="{65AB18BE-550C-4451-9068-60C40644954D}">
+					<ChildrenList>
+						<Action Name="" ID="{CCD9FF02-E024-4FA0-9624-76133D1F992F}" ShortID="692349757">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EAT_Apple_Bite_01_mono" ID="{57EBA6A4-AA2A-4A00-8F65-81D89E8A0B73}" WorkUnitID="{06CDC5D1-9D00-4BF7-8E4A-C3B0C00B0E7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Jump" ID="{43107CAD-4DAA-43D6-8CEE-56D16A6343BC}">
+					<ChildrenList>
+						<Action Name="" ID="{5E931A83-F29A-4C66-AD58-FC8DA63E768F}" ShortID="681942752">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="8BIT_RETRO_Jump_Glide_Up_Dual_Tone_Bounce_Deep_Fast_mono" ID="{F7BB7A4E-1878-4863-B04A-7C7566534613}" WorkUnitID="{06CDC5D1-9D00-4BF7-8E4A-C3B0C00B0E7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Step" ID="{0C522748-35ED-42A3-B743-8BEA4E156B16}">
+					<ChildrenList>
+						<Action Name="" ID="{1F54A854-C9B4-4E1B-AB0D-DE22F0248593}" ShortID="252690323">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Steps" ID="{EB56CFC0-8CE5-4218-89A9-C5FA39AC7620}" WorkUnitID="{06CDC5D1-9D00-4BF7-8E4A-C3B0C00B0E7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

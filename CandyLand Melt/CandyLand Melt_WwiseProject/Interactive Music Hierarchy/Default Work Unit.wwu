@@ -254,6 +254,13 @@
 					</Playlist>
 				</MusicPlaylistContainer>
 				<MusicPlaylistContainer Name="GameOverMusic" ID="{1FA5561A-4388-4C5E-B351-A741C60F160A}" ShortID="1042109028">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{495D56CC-8CBC-4F6E-BD54-87080F5700D9}"/>
