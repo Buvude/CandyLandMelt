@@ -3,12 +3,34 @@
 	<Events>
 		<WorkUnit Name="Music" ID="{E5F9ED40-D5C1-4A32-93C5-BCB7D7EBF61A}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="StartMusic" ID="{77E1D9E7-09D5-4241-9746-6990ACE37E5B}">
+				<Event Name="StartGameplayMusic" ID="{77E1D9E7-09D5-4241-9746-6990ACE37E5B}">
 					<ChildrenList>
 						<Action Name="" ID="{A249C026-BCA2-46A0-8354-C9881B4B2C83}" ShortID="546521491">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="New Music Playlist Container" ID="{36743CBC-249F-4D9B-83CC-9187F142ED52}" WorkUnitID="{11B7443A-2ACF-4A96-A89C-97F2ABA7B44D}"/>
+									<ObjectRef Name="Gameplay Music" ID="{36743CBC-249F-4D9B-83CC-9187F142ED52}" WorkUnitID="{11B7443A-2ACF-4A96-A89C-97F2ABA7B44D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StartMenuMusic" ID="{14E4633F-6C1C-41EC-9BE2-C6050F0921CB}">
+					<ChildrenList>
+						<Action Name="" ID="{31158E9C-6A5A-48B7-9843-4BB41505866E}" ShortID="380021646">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menu Music" ID="{EE745AA1-F58D-469D-85E4-CD88427FA907}" WorkUnitID="{11B7443A-2ACF-4A96-A89C-97F2ABA7B44D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StartGameOverMusic" ID="{E3D1DD64-24D7-48E5-AB21-314DAC041418}">
+					<ChildrenList>
+						<Action Name="" ID="{C189D325-DE38-4682-AAD1-AE0EAAA1E650}" ShortID="679780092">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GameOverMusic" ID="{1FA5561A-4388-4C5E-B351-A741C60F160A}" WorkUnitID="{11B7443A-2ACF-4A96-A89C-97F2ABA7B44D}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

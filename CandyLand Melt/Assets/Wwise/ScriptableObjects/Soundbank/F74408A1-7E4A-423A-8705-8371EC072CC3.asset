@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac4d698003f0e3459aa42334ffc209e, type: 3}
+  m_Name: F74408A1-7E4A-423A-8705-8371EC072CC3
+  m_EditorClassIdentifier: 
+  objectName: Game_Over_Music_Soundbank
+  id: 532728782
+  guid: F74408A1-7E4A-423A-8705-8371EC072CC3

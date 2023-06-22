@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1def1dd4093bf540ae5857dbe638dd1, type: 3}
   m_Name: 77E1D9E7-09D5-4241-9746-6990ACE37E5B
   m_EditorClassIdentifier: 
-  objectName: StartMusic
-  id: 3827058668
+  objectName: StartGameplayMusic
+  id: 1047651740
   guid: 77E1D9E7-09D5-4241-9746-6990ACE37E5B

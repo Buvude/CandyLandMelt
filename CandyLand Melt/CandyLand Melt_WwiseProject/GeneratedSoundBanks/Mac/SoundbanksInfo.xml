@@ -9,6 +9,40 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
+		<SoundBank Id="532728782" Type="User" Language="SFX" Hash="{4C63C0F8-72EC-CFD3-FC23-08660F4AEF17}">
+			<ShortName>Game_Over_Music_Soundbank</ShortName>
+			<Path>Game_Over_Music_Soundbank.bnk</Path>
+			<Media>
+				<File Id="699290306" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Platform Action LOOP END.wav</ShortName>
+					<CachePath>SFX/Platform Action LOOP END_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3903099812" Name="StartGameOverMusic" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="699290306"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1311041530" Type="User" Language="SFX" Hash="{9B3BCD11-ED56-CC10-DAC6-D6EBC9C33606}">
+			<ShortName>Menu_Music_SoundBank</ShortName>
+			<Path>Menu_Music_SoundBank.bnk</Path>
+			<Media>
+				<File Id="547819316" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chase WAITING LOOP.wav</ShortName>
+					<CachePath>SFX/Chase WAITING LOOP_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2440264179" Name="StartMenuMusic" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="547819316"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -22,7 +56,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3427827313" Type="User" Language="SFX" Hash="{01F16060-F155-CB23-4558-08EC645DD0F9}">
+		<SoundBank Id="3427827313" Type="User" Language="SFX" Hash="{70C41D8C-793A-CF57-F407-D9730B157BBE}">
 			<ShortName>MusicSoundbank</ShortName>
 			<Path>MusicSoundbank.bnk</Path>
 			<Media>
@@ -32,7 +66,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3827058668" Name="StartMusic" DurationType="Infinite">
+				<Event Id="1047651740" Name="StartGameplayMusic" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="359294997"/>
 					</MediaRefs>
@@ -40,5 +74,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5E7F44F6-59FC-0C41-AC24-A5430B22697C}</FileHash>
+	<FileHash>{FD8A1B0F-7825-D02C-22C1-DA9D17A81E91}</FileHash>
 </SoundBanksInfo>

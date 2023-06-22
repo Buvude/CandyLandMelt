@@ -79,8 +79,36 @@ MonoBehaviour:
     ParentPath: SoundBanks\Music work unit
     guid: e2b10359a07d194b8d3c7fea3cae33e2
     GuidInternal: 
-    m_lastTime: -8585141998211921478
+    m_lastTime: -8585141986917801433
     List:
+    - name: Game_Over_Music_Soundbank
+      guid: a10844f74a7e3a4287058371ec072cc3
+      id: 532728782
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Music work unit
+        ObjectType: 12
+        guid: e2b10359a07d194b8d3c7fea3cae33e2
+      - ElementName: Game_Over_Music_Soundbank
+        ObjectType: 7
+        guid: a10844f74a7e3a4287058371ec072cc3
+      Path: SoundBanks\Music work unit\Game_Over_Music_Soundbank
+    - name: Menu_Music_SoundBank
+      guid: 85be4aa1da63e743be7bcb69b3684734
+      id: 1311041530
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Music work unit
+        ObjectType: 12
+        guid: e2b10359a07d194b8d3c7fea3cae33e2
+      - ElementName: Menu_Music_SoundBank
+        ObjectType: 7
+        guid: 85be4aa1da63e743be7bcb69b3684734
+      Path: SoundBanks\Music work unit\Menu_Music_SoundBank
     - name: MusicSoundbank
       guid: 52876ef4b3620d428534a7559d1223f6
       id: 3427827313
@@ -120,11 +148,11 @@ MonoBehaviour:
     ParentPath: Events\Music
     guid: 40edf9e5c1d5324a93c5bcb7d7ebf61a
     GuidInternal: 
-    m_lastTime: -8585141998213631852
+    m_lastTime: -8585141986917831444
     List:
-    - name: StartMusic
-      guid: e7d9e177d509414297466990ace37e5b
-      id: 3827058668
+    - name: StartGameOverMusic
+      guid: 64ddd1e3d724e548ab21314dac041418
+      id: 3903099812
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -132,10 +160,44 @@ MonoBehaviour:
       - ElementName: Music
         ObjectType: 12
         guid: 40edf9e5c1d5324a93c5bcb7d7ebf61a
-      - ElementName: StartMusic
+      - ElementName: StartGameOverMusic
+        ObjectType: 3
+        guid: 64ddd1e3d724e548ab21314dac041418
+      Path: Events\Music\StartGameOverMusic
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: StartGameplayMusic
+      guid: e7d9e177d509414297466990ace37e5b
+      id: 1047651740
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Music
+        ObjectType: 12
+        guid: 40edf9e5c1d5324a93c5bcb7d7ebf61a
+      - ElementName: StartGameplayMusic
         ObjectType: 3
         guid: e7d9e177d509414297466990ace37e5b
-      Path: Events\Music\StartMusic
+      Path: Events\Music\StartGameplayMusic
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: StartMenuMusic
+      guid: 3f63e4141c6cec419be2c6050f0921cb
+      id: 2440264179
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Music
+        ObjectType: 12
+        guid: 40edf9e5c1d5324a93c5bcb7d7ebf61a
+      - ElementName: StartMenuMusic
+        ObjectType: 3
+        guid: 3f63e4141c6cec419be2c6050f0921cb
+      Path: Events\Music\StartMenuMusic
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -196,7 +258,7 @@ MonoBehaviour:
     m_lastTime: -8585142030398977582
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0100000005000000070000000b0000000c0000000d0000000e000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -5,7 +5,21 @@
 			<ChildrenList>
 				<SoundBank Name="MusicSoundbank" ID="{F46E8752-62B3-420D-8534-A7559D1223F6}">
 					<ObjectInclusionList>
-						<ObjectRef Name="StartMusic" ID="{77E1D9E7-09D5-4241-9746-6990ACE37E5B}" WorkUnitID="{E5F9ED40-D5C1-4A32-93C5-BCB7D7EBF61A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="StartGameplayMusic" ID="{77E1D9E7-09D5-4241-9746-6990ACE37E5B}" WorkUnitID="{E5F9ED40-D5C1-4A32-93C5-BCB7D7EBF61A}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Menu_Music_SoundBank" ID="{A14ABE85-63DA-43E7-BE7B-CB69B3684734}">
+					<ObjectInclusionList>
+						<ObjectRef Name="StartMenuMusic" ID="{14E4633F-6C1C-41EC-9BE2-C6050F0921CB}" WorkUnitID="{E5F9ED40-D5C1-4A32-93C5-BCB7D7EBF61A}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Game_Over_Music_Soundbank" ID="{F74408A1-7E4A-423A-8705-8371EC072CC3}">
+					<ObjectInclusionList>
+						<ObjectRef Name="StartGameOverMusic" ID="{E3D1DD64-24D7-48E5-AB21-314DAC041418}" WorkUnitID="{E5F9ED40-D5C1-4A32-93C5-BCB7D7EBF61A}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3903099812	StartGameOverMusic			\Music\StartGameOverMusic	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	699290306	Platform Action LOOP END	C:\Users\benja\Desktop\Widow Games\CandyLandMelt\CandyLand Melt\CandyLand Melt_WwiseProject\.cache\Android\SFX\Platform Action LOOP END_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GameOverMusic\Platform Action LOOP END\Platform Action LOOP END		604900
+
