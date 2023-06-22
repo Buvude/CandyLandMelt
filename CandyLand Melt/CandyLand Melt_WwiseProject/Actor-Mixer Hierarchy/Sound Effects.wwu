@@ -66,6 +66,260 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Sound Name="EAT_Apple_Bite_01_mono" ID="{57EBA6A4-AA2A-4A00-8F65-81D89E8A0B73}" ShortID="509224176">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{495D56CC-8CBC-4F6E-BD54-87080F5700D9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1AB82FDD-5F72-4DE0-8495-4F2E73BEBF79}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="EAT_Apple_Bite_01_mono" ID="{10DD0DFC-96FD-4722-96DE-8BFB326E3EBB}">
+							<Language>SFX</Language>
+							<AudioFile>EAT_Apple_Bite_01_mono.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="802283516"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="EAT_Apple_Bite_01_mono" ID="{10DD0DFC-96FD-4722-96DE-8BFB326E3EBB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="8BIT_RETRO_Jump_Glide_Up_Dual_Tone_Bounce_Deep_Fast_mono" ID="{F7BB7A4E-1878-4863-B04A-7C7566534613}" ShortID="453437103">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{495D56CC-8CBC-4F6E-BD54-87080F5700D9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1AB82FDD-5F72-4DE0-8495-4F2E73BEBF79}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="8BIT_RETRO_Jump_Glide_Up_Dual_Tone_Bounce_Deep_Fast_mono" ID="{0513B52B-86CF-40CE-B1E2-4592634A0D32}">
+							<Language>SFX</Language>
+							<AudioFile>8BIT_RETRO_Jump_Glide_Up_Dual_Tone_Bounce_Deep_Fast_mono.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="350544920"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="8BIT_RETRO_Jump_Glide_Up_Dual_Tone_Bounce_Deep_Fast_mono" ID="{0513B52B-86CF-40CE-B1E2-4592634A0D32}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Steps" ID="{EB56CFC0-8CE5-4218-89A9-C5FA39AC7620}" ShortID="805495195">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{495D56CC-8CBC-4F6E-BD54-87080F5700D9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1AB82FDD-5F72-4DE0-8495-4F2E73BEBF79}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="FOOTSTEP_Trainers_Asphalt_Run_RR1_mono" ID="{C0769F99-EBF4-4CBE-A4CA-610584939008}" ShortID="103784076">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{495D56CC-8CBC-4F6E-BD54-87080F5700D9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1AB82FDD-5F72-4DE0-8495-4F2E73BEBF79}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FOOTSTEP_Trainers_Asphalt_Run_RR1_mono" ID="{CB453679-1414-4651-A542-98AB903F4473}">
+									<Language>SFX</Language>
+									<AudioFile>FOOTSTEP_Trainers_Asphalt_Run_RR1_mono.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="319843405"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FOOTSTEP_Trainers_Asphalt_Run_RR1_mono" ID="{CB453679-1414-4651-A542-98AB903F4473}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FOOTSTEP_Trainers_Asphalt_Run_RR2_mono" ID="{2B1885C5-4AC4-4CD6-B18D-BF045494719B}" ShortID="1011649465">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{495D56CC-8CBC-4F6E-BD54-87080F5700D9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1AB82FDD-5F72-4DE0-8495-4F2E73BEBF79}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FOOTSTEP_Trainers_Asphalt_Run_RR2_mono" ID="{740D66EB-BB59-408D-90DB-FC1982B9F03B}">
+									<Language>SFX</Language>
+									<AudioFile>FOOTSTEP_Trainers_Asphalt_Run_RR2_mono.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="724137651"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FOOTSTEP_Trainers_Asphalt_Run_RR2_mono" ID="{740D66EB-BB59-408D-90DB-FC1982B9F03B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FOOTSTEP_Trainers_Asphalt_Run_RR3_mono" ID="{99667773-D172-4146-B3C2-1397EBAC92BF}" ShortID="174461714">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{495D56CC-8CBC-4F6E-BD54-87080F5700D9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1AB82FDD-5F72-4DE0-8495-4F2E73BEBF79}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FOOTSTEP_Trainers_Asphalt_Run_RR3_mono" ID="{DEE29656-5848-4808-AC62-ED7A571D392F}">
+									<Language>SFX</Language>
+									<AudioFile>FOOTSTEP_Trainers_Asphalt_Run_RR3_mono.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="41739279"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FOOTSTEP_Trainers_Asphalt_Run_RR3_mono" ID="{DEE29656-5848-4808-AC62-ED7A571D392F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FOOTSTEP_Trainers_Asphalt_Run_RR4_mono" ID="{E7F7198C-6782-4394-85DB-5156BBD3F95C}" ShortID="468450328">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{495D56CC-8CBC-4F6E-BD54-87080F5700D9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1AB82FDD-5F72-4DE0-8495-4F2E73BEBF79}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FOOTSTEP_Trainers_Asphalt_Run_RR4_mono" ID="{3FB09C24-5ABC-434E-A398-B9B3555A919B}">
+									<Language>SFX</Language>
+									<AudioFile>FOOTSTEP_Trainers_Asphalt_Run_RR4_mono.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="880524309"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FOOTSTEP_Trainers_Asphalt_Run_RR4_mono" ID="{3FB09C24-5ABC-434E-A398-B9B3555A919B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FOOTSTEP_Trainers_Asphalt_Run_RR5_mono" ID="{6E02AA78-92AA-44CF-A25F-3F0E198F24E1}" ShortID="236946824">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{495D56CC-8CBC-4F6E-BD54-87080F5700D9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1AB82FDD-5F72-4DE0-8495-4F2E73BEBF79}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FOOTSTEP_Trainers_Asphalt_Run_RR5_mono" ID="{58101D43-92DD-467E-A3EF-3B140F31B84C}">
+									<Language>SFX</Language>
+									<AudioFile>FOOTSTEP_Trainers_Asphalt_Run_RR5_mono.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="191044085"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FOOTSTEP_Trainers_Asphalt_Run_RR5_mono" ID="{58101D43-92DD-467E-A3EF-3B140F31B84C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FOOTSTEP_Trainers_Asphalt_Run_RR6_mono" ID="{ADB0743B-4007-4537-AB7D-157D968B0E76}" ShortID="873983460">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{495D56CC-8CBC-4F6E-BD54-87080F5700D9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1AB82FDD-5F72-4DE0-8495-4F2E73BEBF79}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FOOTSTEP_Trainers_Asphalt_Run_RR6_mono" ID="{E5F2F3C7-8108-4B96-845F-605EFDE4B5AC}">
+									<Language>SFX</Language>
+									<AudioFile>FOOTSTEP_Trainers_Asphalt_Run_RR6_mono.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="829887607"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FOOTSTEP_Trainers_Asphalt_Run_RR6_mono" ID="{E5F2F3C7-8108-4B96-845F-605EFDE4B5AC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FOOTSTEP_Trainers_Asphalt_Run_RR7_mono" ID="{4784F169-E690-407D-BD1F-8A34A9879B49}" ShortID="952925975">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{495D56CC-8CBC-4F6E-BD54-87080F5700D9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1AB82FDD-5F72-4DE0-8495-4F2E73BEBF79}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FOOTSTEP_Trainers_Asphalt_Run_RR7_mono" ID="{302FA624-7A84-43A8-A04B-8A74C4A5C1F8}">
+									<Language>SFX</Language>
+									<AudioFile>FOOTSTEP_Trainers_Asphalt_Run_RR7_mono.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="354923184"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FOOTSTEP_Trainers_Asphalt_Run_RR7_mono" ID="{302FA624-7A84-43A8-A04B-8A74C4A5C1F8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FOOTSTEP_Trainers_Asphalt_Run_RR8_mono" ID="{7218DFD5-8D91-4F7E-A76A-64B562C1DD62}" ShortID="841866557">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{495D56CC-8CBC-4F6E-BD54-87080F5700D9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1AB82FDD-5F72-4DE0-8495-4F2E73BEBF79}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FOOTSTEP_Trainers_Asphalt_Run_RR8_mono" ID="{B24621AA-1BD0-4B47-8C39-C37D315ED722}">
+									<Language>SFX</Language>
+									<AudioFile>FOOTSTEP_Trainers_Asphalt_Run_RR8_mono.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="651676773"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FOOTSTEP_Trainers_Asphalt_Run_RR8_mono" ID="{B24621AA-1BD0-4B47-8C39-C37D315ED722}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FOOTSTEPS_Trainers_Asphalt_Run_x8_loop_mono" ID="{0A70267C-4C79-4810-B6D4-53C3E1B8F8E5}" ShortID="87410738">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{495D56CC-8CBC-4F6E-BD54-87080F5700D9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1AB82FDD-5F72-4DE0-8495-4F2E73BEBF79}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FOOTSTEPS_Trainers_Asphalt_Run_x8_loop_mono" ID="{5073AB58-D8D4-4AA7-9410-136D315B6DD2}">
+									<Language>SFX</Language>
+									<AudioFile>FOOTSTEPS_Trainers_Asphalt_Run_x8_loop_mono.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="323753066"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FOOTSTEPS_Trainers_Asphalt_Run_x8_loop_mono" ID="{5073AB58-D8D4-4AA7-9410-136D315B6DD2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

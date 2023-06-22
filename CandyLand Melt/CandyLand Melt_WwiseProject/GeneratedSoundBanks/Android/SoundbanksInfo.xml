@@ -56,24 +56,100 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="2383081195" Type="User" Language="SFX" Hash="{4E396AE0-1E33-EDA4-BE9A-8FC17FB7CF3E}">
+		<SoundBank Id="2383081195" Type="User" Language="SFX" Hash="{C3EB0F1D-92E1-47F1-D912-CB7C2A8069B7}">
 			<ShortName>Gameplay_Soundbank</ShortName>
 			<Path>Gameplay_Soundbank.bnk</Path>
 			<Media>
+				<File Id="41739279" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOOTSTEP_Trainers_Asphalt_Run_RR3_mono.wav</ShortName>
+					<CachePath>SFX/FOOTSTEP_Trainers_Asphalt_Run_RR3_mono_10C4C929.wem</CachePath>
+				</File>
+				<File Id="191044085" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOOTSTEP_Trainers_Asphalt_Run_RR5_mono.wav</ShortName>
+					<CachePath>SFX/FOOTSTEP_Trainers_Asphalt_Run_RR5_mono_10C4C929.wem</CachePath>
+				</File>
 				<File Id="223249804" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>POP_Mouth_Darker_mono.wav</ShortName>
 					<CachePath>SFX/POP_Mouth_Darker_mono_10C4C929.wem</CachePath>
+				</File>
+				<File Id="319843405" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOOTSTEP_Trainers_Asphalt_Run_RR1_mono.wav</ShortName>
+					<CachePath>SFX/FOOTSTEP_Trainers_Asphalt_Run_RR1_mono_10C4C929.wem</CachePath>
+				</File>
+				<File Id="323753066" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOOTSTEPS_Trainers_Asphalt_Run_x8_loop_mono.wav</ShortName>
+					<CachePath>SFX/FOOTSTEPS_Trainers_Asphalt_Run_x8_loop_mono_10C4C929.wem</CachePath>
+				</File>
+				<File Id="350544920" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>8BIT_RETRO_Jump_Glide_Up_Dual_Tone_Bounce_Deep_Fast_mono.wav</ShortName>
+					<CachePath>SFX/8BIT_RETRO_Jump_Glide_Up_Dual_Tone_Bounce_Deep_Fast_mono_10C4C929.wem</CachePath>
+				</File>
+				<File Id="354923184" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOOTSTEP_Trainers_Asphalt_Run_RR7_mono.wav</ShortName>
+					<CachePath>SFX/FOOTSTEP_Trainers_Asphalt_Run_RR7_mono_10C4C929.wem</CachePath>
 				</File>
 				<File Id="427079896" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>POP_Mouth_mono.wav</ShortName>
 					<CachePath>SFX/POP_Mouth_mono_10C4C929.wem</CachePath>
 				</File>
+				<File Id="589328802" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ALARM_Fast_High_Pitch_Echo_loop_stereo.wav</ShortName>
+					<CachePath>SFX/ALARM_Fast_High_Pitch_Echo_loop_stereo_10C4C929.wem</CachePath>
+				</File>
+				<File Id="651676773" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOOTSTEP_Trainers_Asphalt_Run_RR8_mono.wav</ShortName>
+					<CachePath>SFX/FOOTSTEP_Trainers_Asphalt_Run_RR8_mono_10C4C929.wem</CachePath>
+				</File>
+				<File Id="724137651" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOOTSTEP_Trainers_Asphalt_Run_RR2_mono.wav</ShortName>
+					<CachePath>SFX/FOOTSTEP_Trainers_Asphalt_Run_RR2_mono_10C4C929.wem</CachePath>
+				</File>
+				<File Id="802283516" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>EAT_Apple_Bite_01_mono.wav</ShortName>
+					<CachePath>SFX/EAT_Apple_Bite_01_mono_10C4C929.wem</CachePath>
+				</File>
+				<File Id="829887607" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOOTSTEP_Trainers_Asphalt_Run_RR6_mono.wav</ShortName>
+					<CachePath>SFX/FOOTSTEP_Trainers_Asphalt_Run_RR6_mono_10C4C929.wem</CachePath>
+				</File>
+				<File Id="880524309" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOOTSTEP_Trainers_Asphalt_Run_RR4_mono.wav</ShortName>
+					<CachePath>SFX/FOOTSTEP_Trainers_Asphalt_Run_RR4_mono_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="2242162708" Name="Deliver" DurationType="OneShot" DurationMin="0.6321769" DurationMax="0.6321769">
+					<MediaRefs>
+						<MediaRef Id="802283516"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3473109157" Name="FasterAlarm" DurationType="OneShot" DurationMin="0.8119427" DurationMax="0.8119427">
+					<MediaRefs>
+						<MediaRef Id="589328802"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3833651337" Name="Jump" DurationType="OneShot" DurationMin="0.16115646" DurationMax="0.16115646">
+					<MediaRefs>
+						<MediaRef Id="350544920"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3978245845" Name="Pickup" DurationType="OneShot" DurationMin="0.1093424" DurationMax="0.13120182">
 					<MediaRefs>
 						<MediaRef Id="223249804"/>
 						<MediaRef Id="427079896"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="621108255" Name="Step" DurationType="OneShot" DurationMin="0.33800453" DurationMax="3.0080044">
+					<MediaRefs>
+						<MediaRef Id="41739279"/>
+						<MediaRef Id="191044085"/>
+						<MediaRef Id="319843405"/>
+						<MediaRef Id="323753066"/>
+						<MediaRef Id="354923184"/>
+						<MediaRef Id="651676773"/>
+						<MediaRef Id="724137651"/>
+						<MediaRef Id="829887607"/>
+						<MediaRef Id="880524309"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -96,5 +172,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{104CE820-0779-1660-F915-29ADCD1BE1A9}</FileHash>
+	<FileHash>{19DA3652-418D-3C9D-09F6-DC97AE57884E}</FileHash>
 </SoundBanksInfo>

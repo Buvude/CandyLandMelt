@@ -48,6 +48,7 @@ namespace Player
                 toDelete.GetComponent<PoolObject>().Recycle();
                 UpdatePickables();
                 _score.AddScore(_score.GetRegularPointValue());
+                AkSoundEngine.PostEvent("Deliver", this.gameObject);
             }
         }
         public bool GetEnoughPickables()  { return (pickables.Count > 0); }

@@ -28,6 +28,7 @@ namespace Player
                 rb.velocity = Vector2.up * jumpVelocity;
                 anim.SetBool("Jumping", true);
                 _jumpAvailable = false;
+                AkSoundEngine.PostEvent("Jump", this.gameObject);
             }
         }
     }
