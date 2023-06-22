@@ -130,7 +130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenSpawns: 2
-  poolName: IcePool
+  poolName: IcePool2
   anim: {fileID: 4150668129742278035}
 --- !u!1001 &8721332713607611482
 PrefabInstance:
@@ -157,7 +157,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7e78a34ae4944284ab00511f0df689e9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.083
+      value: -0.006
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7e78a34ae4944284ab00511f0df689e9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -165,7 +165,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7e78a34ae4944284ab00511f0df689e9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2
+      value: 1.284
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7e78a34ae4944284ab00511f0df689e9, type: 3}
       propertyPath: m_LocalRotation.w
