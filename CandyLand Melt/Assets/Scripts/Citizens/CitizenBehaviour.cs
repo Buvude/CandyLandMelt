@@ -72,6 +72,7 @@ public class CitizenBehaviour : MonoBehaviour
             alive = false;
             triggerCollider.enabled = false;
             anim.SetBool("Dead", true);
+            AkSoundEngine.PostEvent("CitizenDeath", this.gameObject);
             //this.gameObject.SetActive(false);
         }
     }
