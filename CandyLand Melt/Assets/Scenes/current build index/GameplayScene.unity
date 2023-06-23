@@ -2381,6 +2381,7 @@ GameObject:
   - component: {fileID: 501095782}
   - component: {fileID: 501095785}
   - component: {fileID: 501095784}
+  - component: {fileID: 501095786}
   m_Layer: 0
   m_Name: Music Manager
   m_TagString: Untagged
@@ -2478,6 +2479,30 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!114 &501095786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501095779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e499595e64e7526438c2be4c0fc5d213, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: 
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 86046c3ed39e42f4abb88dd619e959ec, type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: ae8d9d44
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1 &509731412
 GameObject:
   m_ObjectHideFlags: 0
