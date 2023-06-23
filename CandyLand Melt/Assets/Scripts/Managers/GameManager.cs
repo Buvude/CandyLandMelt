@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         score.LoadScore();
+        AkSoundEngine.PostEvent("StartGameplayMusic", this.gameObject);
         ResetGame();
     }
     public void EndGame()

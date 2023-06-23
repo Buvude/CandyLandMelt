@@ -2380,7 +2380,6 @@ GameObject:
   - component: {fileID: 501095783}
   - component: {fileID: 501095782}
   - component: {fileID: 501095785}
-  - component: {fileID: 501095784}
   - component: {fileID: 501095786}
   m_Layer: 0
   m_Name: Music Manager
@@ -2428,35 +2427,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &501095784
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 501095779}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1976cdd0190e72641af63fa0e06b2104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 586dd0853dd7df147bb54743cd6c5e39, type: 2}
-  useCallbacks: 0
-  Callbacks: []
-  playingId: 0
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
 --- !u!114 &501095785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8539,17 +8509,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 126ee36b259160c4ea431d2f3582b3ff, type: 3}
---- !u!114 &1634442972 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5821997579756916192, guid: fcb716e4cc26dcd479fd97cecf6edb10, type: 3}
-  m_PrefabInstance: {fileID: 5821997578770455269}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3a04fa582d8b4e4ca45093637b80971, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1657248672 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6940139493820804764, guid: 4987681a86eb52949a3ef4a1477f54ae, type: 3}
@@ -10547,10 +10506,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3006384991277181830, guid: fcb716e4cc26dcd479fd97cecf6edb10, type: 3}
-      propertyPath: jump
-      value: 
-      objectReference: {fileID: 1634442972}
     - target: {fileID: 5821997579756916193, guid: fcb716e4cc26dcd479fd97cecf6edb10, type: 3}
       propertyPath: m_RootOrder
       value: 1

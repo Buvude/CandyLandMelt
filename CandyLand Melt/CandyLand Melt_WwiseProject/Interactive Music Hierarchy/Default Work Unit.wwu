@@ -126,7 +126,6 @@
 							<ChildrenList>
 								<MusicPlaylistItem Name="" ID="{763A26AC-D49D-49C1-A861-D70834BBF9EC}" ShortID="675924380">
 									<PropertyList>
-										<Property Name="LoopCount" Type="int16" Value="0"/>
 										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 									</PropertyList>
 									<SegmentRef Name="CANDYLAND_GAMEPLAY_MUSIC_LOOP_OCK" ID="{E7E27B08-0B13-4A19-B2D8-307F1D9C0D9C}"/>
@@ -258,7 +257,6 @@
 							<ChildrenList>
 								<MusicPlaylistItem Name="" ID="{1943B96A-13BE-4761-BE81-17A23C2AB797}" ShortID="1013290562">
 									<PropertyList>
-										<Property Name="LoopCount" Type="int16" Value="0"/>
 										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 									</PropertyList>
 									<SegmentRef Name="CANDYLAND_MENU_MUSIC_LOOP_OCK" ID="{6F684F1E-58C9-43E9-8675-BE1CE3685008}"/>
