@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2242162708	Deliver			\Gameplay\Deliver	
 	3473109157	FasterAlarm			\Gameplay\FasterAlarm	
 	3833651337	Jump			\Gameplay\Jump	
+	3877079319	CitizenDeath			\Gameplay\CitizenDeath	
 	3978245845	Pickup			\Gameplay\Pickup	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
@@ -14,6 +15,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	350544920	8BIT_RETRO_Jump_Glide_Up_Dual_Tone_Bounce_Deep_Fast_mono	C:\Users\benja\Desktop\Widow Games\CandyLandMelt\CandyLand Melt\CandyLand Melt_WwiseProject\.cache\Android\SFX\8BIT_RETRO_Jump_Glide_Up_Dual_Tone_Bounce_Deep_Fast_mono_10C4C929.wem		\Actor-Mixer Hierarchy\Sound Effects\8BIT_RETRO_Jump_Glide_Up_Dual_Tone_Bounce_Deep_Fast_mono		14310
 	354923184	FOOTSTEP_Trainers_Asphalt_Run_RR7_mono	C:\Users\benja\Desktop\Widow Games\CandyLandMelt\CandyLand Melt\CandyLand Melt_WwiseProject\.cache\Android\SFX\FOOTSTEP_Trainers_Asphalt_Run_RR7_mono_10C4C929.wem		\Actor-Mixer Hierarchy\Sound Effects\Steps\FOOTSTEP_Trainers_Asphalt_Run_RR7_mono		33660
 	427079896	POP_Mouth_mono	C:\Users\benja\Desktop\Widow Games\CandyLandMelt\CandyLand Melt\CandyLand Melt_WwiseProject\.cache\Android\SFX\POP_Mouth_mono_10C4C929.wem		\Actor-Mixer Hierarchy\Sound Effects\Pickup\POP_Mouth_mono		9740
+	427907209	MUSIC_EFFECT_Bell_Voice_Negative_15_stereo	C:\Users\benja\Desktop\Widow Games\CandyLandMelt\CandyLand Melt\CandyLand Melt_WwiseProject\.cache\Android\SFX\MUSIC_EFFECT_Bell_Voice_Negative_15_stereo_10C4C929.wem		\Actor-Mixer Hierarchy\Sound Effects\MUSIC_EFFECT_Bell_Voice_Negative_15_stereo		331640
 	589328802	ALARM_Fast_High_Pitch_Echo_loop_stereo	C:\Users\benja\Desktop\Widow Games\CandyLandMelt\CandyLand Melt\CandyLand Melt_WwiseProject\.cache\Android\SFX\ALARM_Fast_High_Pitch_Echo_loop_stereo_10C4C929.wem		\Actor-Mixer Hierarchy\Sound Effects\ALARM_Fast_High_Pitch_Echo_loop_stereo		54964
 	651676773	FOOTSTEP_Trainers_Asphalt_Run_RR8_mono	C:\Users\benja\Desktop\Widow Games\CandyLandMelt\CandyLand Melt\CandyLand Melt_WwiseProject\.cache\Android\SFX\FOOTSTEP_Trainers_Asphalt_Run_RR8_mono_10C4C929.wem		\Actor-Mixer Hierarchy\Sound Effects\Steps\FOOTSTEP_Trainers_Asphalt_Run_RR8_mono		33042
 	724137651	FOOTSTEP_Trainers_Asphalt_Run_RR2_mono	C:\Users\benja\Desktop\Widow Games\CandyLandMelt\CandyLand Melt\CandyLand Melt_WwiseProject\.cache\Android\SFX\FOOTSTEP_Trainers_Asphalt_Run_RR2_mono_10C4C929.wem		\Actor-Mixer Hierarchy\Sound Effects\Steps\FOOTSTEP_Trainers_Asphalt_Run_RR2_mono		31308

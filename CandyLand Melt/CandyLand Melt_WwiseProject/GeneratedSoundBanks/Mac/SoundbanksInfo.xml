@@ -56,7 +56,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="2383081195" Type="User" Language="SFX" Hash="{C3EB0F1D-92E1-47F1-D912-CB7C2A8069B7}">
+		<SoundBank Id="2383081195" Type="User" Language="SFX" Hash="{80A36CF5-8C20-6836-47AC-6C2CAB1535F1}">
 			<ShortName>Gameplay_Soundbank</ShortName>
 			<Path>Gameplay_Soundbank.bnk</Path>
 			<Media>
@@ -92,6 +92,10 @@
 					<ShortName>POP_Mouth_mono.wav</ShortName>
 					<CachePath>SFX/POP_Mouth_mono_10C4C929.wem</CachePath>
 				</File>
+				<File Id="427907209" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MUSIC_EFFECT_Bell_Voice_Negative_15_stereo.wav</ShortName>
+					<CachePath>SFX/MUSIC_EFFECT_Bell_Voice_Negative_15_stereo_10C4C929.wem</CachePath>
+				</File>
 				<File Id="589328802" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ALARM_Fast_High_Pitch_Echo_loop_stereo.wav</ShortName>
 					<CachePath>SFX/ALARM_Fast_High_Pitch_Echo_loop_stereo_10C4C929.wem</CachePath>
@@ -118,6 +122,11 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="3877079319" Name="CitizenDeath" DurationType="OneShot" DurationMin="1.8795011" DurationMax="1.8795011">
+					<MediaRefs>
+						<MediaRef Id="427907209"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2242162708" Name="Deliver" DurationType="OneShot" DurationMin="0.6321769" DurationMax="0.6321769">
 					<MediaRefs>
 						<MediaRef Id="802283516"/>
@@ -172,5 +181,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1C66FA5A-F1E0-7136-8DEE-B9D23FEF2531}</FileHash>
+	<FileHash>{587D964B-2087-DFA1-EA50-BB27BBBD7419}</FileHash>
 </SoundBanksInfo>

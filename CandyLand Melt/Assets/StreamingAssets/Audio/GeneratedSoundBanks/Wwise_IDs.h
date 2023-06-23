@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID CITIZENDEATH = 3877079319U;
         static const AkUniqueID DELIVER = 2242162708U;
         static const AkUniqueID FASTERALARM = 3473109157U;
         static const AkUniqueID JUMP = 3833651337U;

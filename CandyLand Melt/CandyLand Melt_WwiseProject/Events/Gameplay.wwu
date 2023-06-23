@@ -47,6 +47,38 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="FasterAlarm" ID="{42DCA35F-135C-4E21-A2A4-90D9C7B5D5BC}">
+					<ChildrenList>
+						<Action Name="" ID="{DBF2C0CC-DA40-46ED-950B-C069A7EE0E48}" ShortID="521458097">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ALARM_Fast_High_Pitch_Echo_loop_stereo" ID="{4C6E4CC8-B148-4581-954C-E26DAADD27F2}" WorkUnitID="{06CDC5D1-9D00-4BF7-8E4A-C3B0C00B0E7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4CBECED7-7171-4C9D-9797-98000CD7DAA3}" ShortID="250522288">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ALARM_Fast_High_Pitch_Echo_loop_stereo" ID="{4C6E4CC8-B148-4581-954C-E26DAADD27F2}" WorkUnitID="{06CDC5D1-9D00-4BF7-8E4A-C3B0C00B0E7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="CitizenDeath" ID="{C1B83191-6746-440C-9CFD-2D6A778F81EF}">
+					<ChildrenList>
+						<Action Name="" ID="{679C2BA0-6CA1-436C-A2B0-73BD0D8EB7E0}" ShortID="919736016">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MUSIC_EFFECT_Bell_Voice_Negative_15_stereo" ID="{B630B55B-6095-47E7-8E00-98355B08A5D9}" WorkUnitID="{06CDC5D1-9D00-4BF7-8E4A-C3B0C00B0E7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

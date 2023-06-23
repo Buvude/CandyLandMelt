@@ -6,9 +6,11 @@
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\benja\Desktop\Proyectos\Assets\Assets de sonido\Universal Sound FX\HUMAN\Footsteps\Trainers_Asphalt_Run\"/>
 				<Property Name="Event Action List\{0C522748-35ED-42A3-B743-8BEA4E156B16}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{14E4633F-6C1C-41EC-9BE2-C6050F0921CB}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{42DCA35F-135C-4E21-A2A4-90D9C7B5D5BC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{43107CAD-4DAA-43D6-8CEE-56D16A6343BC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{65AB18BE-550C-4451-9068-60C40644954D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{77E1D9E7-09D5-4241-9746-6990ACE37E5B}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C1B83191-6746-440C-9CFD-2D6A778F81EF}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{CF1B5D67-0CB0-401A-9B14-816E1360841B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E3D1DD64-24D7-48E5-AB21-314DAC041418}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>

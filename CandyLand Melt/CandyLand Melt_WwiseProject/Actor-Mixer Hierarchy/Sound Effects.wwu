@@ -320,6 +320,69 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Sound Name="ALARM_Fast_High_Pitch_Echo_loop_stereo" ID="{4C6E4CC8-B148-4581-954C-E26DAADD27F2}" ShortID="686002391">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>27</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{495D56CC-8CBC-4F6E-BD54-87080F5700D9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1AB82FDD-5F72-4DE0-8495-4F2E73BEBF79}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ALARM_Fast_High_Pitch_Echo_loop_stereo" ID="{9CF91289-A020-49EA-8540-09F51D080A03}">
+							<Language>SFX</Language>
+							<AudioFile>ALARM_Fast_High_Pitch_Echo_loop_stereo.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="589328802"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ALARM_Fast_High_Pitch_Echo_loop_stereo" ID="{9CF91289-A020-49EA-8540-09F51D080A03}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="MUSIC_EFFECT_Bell_Voice_Negative_15_stereo" ID="{B630B55B-6095-47E7-8E00-98355B08A5D9}" ShortID="959505219">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{495D56CC-8CBC-4F6E-BD54-87080F5700D9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1AB82FDD-5F72-4DE0-8495-4F2E73BEBF79}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="MUSIC_EFFECT_Bell_Voice_Negative_15_stereo" ID="{07871BC8-6AFA-407A-94B8-3093B8A7FAD6}">
+							<Language>SFX</Language>
+							<AudioFile>MUSIC_EFFECT_Bell_Voice_Negative_15_stereo.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="427907209"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="MUSIC_EFFECT_Bell_Voice_Negative_15_stereo" ID="{07871BC8-6AFA-407A-94B8-3093B8A7FAD6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
