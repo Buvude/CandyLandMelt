@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
     public void EndGame()
     {
         score.SaveScore();
+        AkSoundEngine.PostEvent("StopGameplayMusic", this.gameObject);
     }
     private void ResetGame()
     {

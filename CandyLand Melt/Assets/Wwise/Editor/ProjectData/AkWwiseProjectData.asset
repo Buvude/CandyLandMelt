@@ -79,7 +79,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Gameplay work unit
     guid: 736c50fa525658469eb1e3fc138c6a9e
     GuidInternal: 
-    m_lastTime: -8585141200142297432
+    m_lastTime: -8585141190188353051
     List:
     - name: Gameplay_Soundbank
       guid: 02aef9897f6ff24da20d12ef5e696d56
@@ -106,7 +106,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Music work unit
     guid: e2b10359a07d194b8d3c7fea3cae33e2
     GuidInternal: 
-    m_lastTime: -8585141972013725938
+    m_lastTime: -8585141186550227767
     List:
     - name: Game_Over_Music_Soundbank
       guid: a10844f74a7e3a4287058371ec072cc3
@@ -175,7 +175,7 @@ MonoBehaviour:
     ParentPath: Events\Gameplay
     guid: 9e322167e1e61a4fb190e24979953990
     GuidInternal: 
-    m_lastTime: -8585141200142619770
+    m_lastTime: -8585141190188653114
     List:
     - name: CitizenDeath
       guid: 9131b8c146670c449cfd2d6a778f81ef
@@ -290,7 +290,7 @@ MonoBehaviour:
     ParentPath: Events\Music
     guid: 40edf9e5c1d5324a93c5bcb7d7ebf61a
     GuidInternal: 
-    m_lastTime: -8585141972015486346
+    m_lastTime: -8585141186550247767
     List:
     - name: StartGameOverMusic
       guid: 64ddd1e3d724e548ab21314dac041418
@@ -340,6 +340,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 3f63e4141c6cec419be2c6050f0921cb
       Path: Events\Music\StartMenuMusic
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: StopGameplayMusic
+      guid: 3e4cb1b728b7fc45a15a6fbfd92022b1
+      id: 841822546
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Music
+        ObjectType: 12
+        guid: 40edf9e5c1d5324a93c5bcb7d7ebf61a
+      - ElementName: StopGameplayMusic
+        ObjectType: 3
+        guid: 3e4cb1b728b7fc45a15a6fbfd92022b1
+      Path: Events\Music\StopGameplayMusic
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1

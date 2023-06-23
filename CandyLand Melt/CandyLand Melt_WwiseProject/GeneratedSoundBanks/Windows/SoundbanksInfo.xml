@@ -163,7 +163,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3427827313" Type="User" Language="SFX" Hash="{70C41D8C-793A-CF57-F407-D9730B157BBE}">
+		<SoundBank Id="3427827313" Type="User" Language="SFX" Hash="{EE179DA0-E67D-CA5A-1C30-9067C34B936F}">
 			<ShortName>MusicSoundbank</ShortName>
 			<Path>MusicSoundbank.bnk</Path>
 			<Media>
@@ -178,8 +178,9 @@
 						<MediaRef Id="359294997"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="841822546" Name="StopGameplayMusic" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D2AC82C9-CCAB-D32F-35D2-F30D783522E4}</FileHash>
+	<FileHash>{F73AE181-5A1C-9E0B-C83A-5A418DE7EE0D}</FileHash>
 </SoundBanksInfo>
