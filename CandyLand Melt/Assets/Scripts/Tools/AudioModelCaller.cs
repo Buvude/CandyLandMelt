@@ -1,11 +1,14 @@
+using Player;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class AudioModelCaller : MonoBehaviour
 {
+    [SerializeField] private Jump jump;
     public void Step()
     {
-        AkSoundEngine.PostEvent("Step", this.gameObject);
+        if(jump.GetJumpAvailable())
+            AkSoundEngine.PostEvent("Step", this.gameObject);
     }
 }

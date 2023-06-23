@@ -56,6 +56,9 @@ namespace Player
             {
                 this.gameObject.transform.parent = null;
             }
+
+            if (collision.gameObject.tag == floorTag)
+                jump.SetJumpAvailable(false);
         }
     }
 }

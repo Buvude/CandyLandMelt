@@ -21,6 +21,7 @@ namespace Player
                 anim.SetBool("Jumping", false);
         }
 
+        public bool GetJumpAvailable() { return _jumpAvailable; }
         private void Update()
         {
             if (Input.GetKeyDown(KeyCode.Space) && _jumpAvailable)
