@@ -26,19 +26,19 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1311041530" Type="User" Language="SFX" Hash="{176914E2-8845-DD5A-2E86-77B7CB44553A}">
+		<SoundBank Id="1311041530" Type="User" Language="SFX" Hash="{FFE30924-DDC0-676A-C8BD-0E03A8081523}">
 			<ShortName>Menu_Music_SoundBank</ShortName>
 			<Path>Menu_Music_SoundBank.bnk</Path>
 			<Media>
-				<File Id="547819316" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Chase WAITING LOOP.wav</ShortName>
-					<CachePath>SFX/Chase WAITING LOOP_D79FB2B7.wem</CachePath>
+				<File Id="144382655" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CANDYLAND_MENU_MUSIC_LOOP_OCK.wav</ShortName>
+					<CachePath>SFX/CANDYLAND_MENU_MUSIC_LOOP_OCK_D79FB2B7.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
 				<Event Id="2440264179" Name="StartMenuMusic" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="547819316"/>
+						<MediaRef Id="144382655"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -56,7 +56,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="2383081195" Type="User" Language="SFX" Hash="{80A36CF5-8C20-6836-47AC-6C2CAB1535F1}">
+		<SoundBank Id="2383081195" Type="User" Language="SFX" Hash="{F66F17E9-67E6-45A1-E209-C50598629802}">
 			<ShortName>Gameplay_Soundbank</ShortName>
 			<Path>Gameplay_Soundbank.bnk</Path>
 			<Media>
@@ -75,10 +75,6 @@
 				<File Id="319843405" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FOOTSTEP_Trainers_Asphalt_Run_RR1_mono.wav</ShortName>
 					<CachePath>SFX/FOOTSTEP_Trainers_Asphalt_Run_RR1_mono_10C4C929.wem</CachePath>
-				</File>
-				<File Id="323753066" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FOOTSTEPS_Trainers_Asphalt_Run_x8_loop_mono.wav</ShortName>
-					<CachePath>SFX/FOOTSTEPS_Trainers_Asphalt_Run_x8_loop_mono_10C4C929.wem</CachePath>
 				</File>
 				<File Id="350544920" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>8BIT_RETRO_Jump_Glide_Up_Dual_Tone_Bounce_Deep_Fast_mono.wav</ShortName>
@@ -148,12 +144,11 @@
 						<MediaRef Id="427079896"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="621108255" Name="Step" DurationType="OneShot" DurationMin="0.33800453" DurationMax="3.0080044">
+				<Event Id="621108255" Name="Step" DurationType="OneShot" DurationMin="0.33800453" DurationMax="0.41333333">
 					<MediaRefs>
 						<MediaRef Id="41739279"/>
 						<MediaRef Id="191044085"/>
 						<MediaRef Id="319843405"/>
-						<MediaRef Id="323753066"/>
 						<MediaRef Id="354923184"/>
 						<MediaRef Id="651676773"/>
 						<MediaRef Id="724137651"/>
@@ -163,24 +158,24 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3427827313" Type="User" Language="SFX" Hash="{EE179DA0-E67D-CA5A-1C30-9067C34B936F}">
+		<SoundBank Id="3427827313" Type="User" Language="SFX" Hash="{80636AA8-F33C-6443-E15D-0DC112A6E46C}">
 			<ShortName>MusicSoundbank</ShortName>
 			<Path>MusicSoundbank.bnk</Path>
 			<Media>
-				<File Id="359294997" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Chase LOOP.wav</ShortName>
-					<CachePath>SFX/Chase LOOP_D79FB2B7.wem</CachePath>
+				<File Id="660306539" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CANDYLAND_GAMEPLAY_MUSIC_LOOP_OCK.wav</ShortName>
+					<CachePath>SFX/CANDYLAND_GAMEPLAY_MUSIC_LOOP_OCK_D79FB2B7.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
 				<Event Id="1047651740" Name="StartGameplayMusic" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="359294997"/>
+						<MediaRef Id="660306539"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="841822546" Name="StopGameplayMusic" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D71F1C40-9C69-ED91-F57E-756B477B5CC7}</FileHash>
+	<FileHash>{71902C86-0A38-02A4-E030-ABEBAB526420}</FileHash>
 </SoundBanksInfo>

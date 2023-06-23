@@ -35,10 +35,12 @@
 				<Property Name="General\LatestPlatform" Type="string" Value="Android"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="G8hNdl5JJUW1odRAhWyZmzHqQm6jP+JNtbHHySbEg8M="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="oQhE90p+OkKHBYNx7Acsw4W+SqHaY+dDvnvLabNoRzRSh270s2INQoU0p1WdEiP2"/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="Aq75iX9v8k2iDRLvXmltVg=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
 				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups_v2" Type="string" Value="hTTJAKY56EeuL8ABWWKgZgEADw7dAAAAwJRRRft/AACYrb7/VQIAAAAAAABVAgAAwJRRRft/AAA0lLRB+38AAICnsI1VAgAAAAAAAFUCAAAIAAAAAAAAAKjgDw7dAAAAUAXJQft/AABvBslB+38AAFAFyUH7fwAAwJRRRft/AADAlFFF+38AAJitvv9VAgAAAQAAAJ6NyfeBnZZHoYRc6TcYXnIBAA8O3QAAAMCUUUX7fwAAmK2+/1UCAAAAAAAAVQIAAMCUUUX7fwAANJS0Qft/AACAp7CNVQIAAAAAAABVAgAACAAAAAAAAACo4A8O3QAAAFAFyUH7fwAAbwbJQft/AABQBclB+38AAMCUUUX7fwAAwJRRRft/AACYrb7/VQIAAAEAAAA="/>
 				<Property Name="Interactive Music\x64_{274DB146-2EC9-4E6E-BB95-A319A4C2431A} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPxlQqSb/RzJAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{6F684F1E-58C9-43E9-8675-BE1CE3685008} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP3RJfAb/1yZAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{A400E588-81A8-4B1A-933B-B5377F1B833C} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwMAAAAA8mBAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>

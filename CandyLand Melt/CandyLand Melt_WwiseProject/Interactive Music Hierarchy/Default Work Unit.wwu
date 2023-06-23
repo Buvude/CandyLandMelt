@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{11B7443A-2ACF-4A96-A89C-97F2ABA7B44D}" PersistMode="Standalone">
 			<ChildrenList>
 				<MusicPlaylistContainer Name="Gameplay Music" ID="{36743CBC-249F-4D9B-83CC-9187F142ED52}" ShortID="862559439">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-20</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{495D56CC-8CBC-4F6E-BD54-87080F5700D9}"/>
@@ -13,9 +20,9 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicSegment Name="Chase LOOP" ID="{274DB146-2EC9-4E6E-BB95-A319A4C2431A}" ShortID="526623205">
+						<MusicSegment Name="CANDYLAND_GAMEPLAY_MUSIC_LOOP_OCK" ID="{E7E27B08-0B13-4A19-B2D8-307F1D9C0D9C}" ShortID="590404765">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="32000.022675737"/>
+								<Property Name="EndPosition" Type="Real64" Value="63999.875"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -26,23 +33,23 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="Chase LOOP" ID="{E05E253E-7E61-49E2-BAAC-462132ECD6DD}" ShortID="154198295">
+								<MusicTrack Name="CANDYLAND_GAMEPLAY_MUSIC_LOOP_OCK" ID="{AD7DEEAB-7B02-4472-A9EA-69D5A8EE9A91}" ShortID="917489767">
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1AB82FDD-5F72-4DE0-8495-4F2E73BEBF79}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Chase LOOP" ID="{0702189B-850B-4D18-9F45-1532F1C36FAC}">
+										<AudioFileSource Name="CANDYLAND_GAMEPLAY_MUSIC_LOOP_OCK" ID="{D067ADB0-3741-4B52-A2DE-485537FF6C77}">
 											<Language>SFX</Language>
-											<AudioFile>Chase LOOP.wav</AudioFile>
+											<AudioFile>CANDYLAND_GAMEPLAY_MUSIC_LOOP_OCK.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="359294997"/>
+												<MediaID ID="660306539"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<TransitionList>
-										<MusicTransition Name="Root" ID="{7A6DF574-2A46-4B2F-BC65-233A678ED283}">
+										<MusicTransition Name="Root" ID="{743D72D0-7F11-4489-B454-DBC7EA559A03}">
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
@@ -53,18 +60,18 @@
 										<ObjectList Name="Sequences">
 											<Reference>
 												<Local>
-													<MusicTrackSequence Name="" ID="{DC8727B7-F0EF-468B-83B4-4BC4AD0C3D84}">
+													<MusicTrackSequence Name="" ID="{601B7714-EE45-4B5C-9C4B-2E1262DA7C0A}">
 														<ObjectLists>
 															<ObjectList Name="Clips">
 																<Reference>
 																	<Local>
-																		<MusicClip Name="Chase LOOP" ID="{05F4400E-A5B4-46F0-B3A1-4F015FBC352D}">
+																		<MusicClip Name="CANDYLAND_GAMEPLAY_MUSIC_LOOP_OCK" ID="{4DCD8B89-5A87-4F16-8C82-A9960DF083A9}">
 																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="32000.022675737"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="63999.875"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="Chase LOOP" ID="{0702189B-850B-4D18-9F45-1532F1C36FAC}"/>
+																			<AudioSourceRef Name="CANDYLAND_GAMEPLAY_MUSIC_LOOP_OCK" ID="{D067ADB0-3741-4B52-A2DE-485537FF6C77}"/>
 																		</MusicClip>
 																	</Local>
 																</Reference>
@@ -81,15 +88,15 @@
 								<ObjectList Name="Cues">
 									<Reference>
 										<Local>
-											<MusicCue Name="Entry Cue" ID="{50A70F4D-D914-4C9E-9B93-C8EB7E592B24}"/>
+											<MusicCue Name="Entry Cue" ID="{219B94C2-84B5-4471-97BF-234209F38D95}"/>
 										</Local>
 									</Reference>
 									<Reference>
 										<Local>
-											<MusicCue Name="Exit Cue" ID="{FE01F711-492E-4B87-91A0-A1E46AA30CBB}">
+											<MusicCue Name="Exit Cue" ID="{6B0B32F0-F330-4568-B7E2-73F389A82D63}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="32000.022675737"/>
+													<Property Name="TimeMs" Type="Real64" Value="63999.875"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>
@@ -117,18 +124,25 @@
 								<Property Name="LoopCount" Type="int16" Value="0"/>
 							</PropertyList>
 							<ChildrenList>
-								<MusicPlaylistItem Name="" ID="{6E79880E-D03A-42B5-AA13-45EA07245BFF}" ShortID="60209885">
+								<MusicPlaylistItem Name="" ID="{763A26AC-D49D-49C1-A861-D70834BBF9EC}" ShortID="675924380">
 									<PropertyList>
 										<Property Name="LoopCount" Type="int16" Value="0"/>
 										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 									</PropertyList>
-									<SegmentRef Name="Chase LOOP" ID="{274DB146-2EC9-4E6E-BB95-A319A4C2431A}"/>
+									<SegmentRef Name="CANDYLAND_GAMEPLAY_MUSIC_LOOP_OCK" ID="{E7E27B08-0B13-4A19-B2D8-307F1D9C0D9C}"/>
 								</MusicPlaylistItem>
 							</ChildrenList>
 						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
 				<MusicPlaylistContainer Name="Menu Music" ID="{EE745AA1-F58D-469D-85E4-CD88427FA907}" ShortID="757584560">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-20</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{495D56CC-8CBC-4F6E-BD54-87080F5700D9}"/>
@@ -138,9 +152,9 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicSegment Name="Chase WAITING LOOP" ID="{A400E588-81A8-4B1A-933B-B5377F1B833C}" ShortID="728864079">
+						<MusicSegment Name="CANDYLAND_MENU_MUSIC_LOOP_OCK" ID="{6F684F1E-58C9-43E9-8675-BE1CE3685008}" ShortID="719978309">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="5333.33333333333"/>
+								<Property Name="EndPosition" Type="Real64" Value="64000.0416666667"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -151,23 +165,23 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="Chase WAITING LOOP" ID="{EB2C5F5B-985F-4A43-BD74-9C6CE9CC5484}" ShortID="978284196">
+								<MusicTrack Name="CANDYLAND_MENU_MUSIC_LOOP_OCK" ID="{E9829F92-36FC-480F-A3E5-6CB25F119EE8}" ShortID="409856369">
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1AB82FDD-5F72-4DE0-8495-4F2E73BEBF79}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Chase WAITING LOOP" ID="{72604223-D6DD-4C8A-8EA6-2B980852C5BE}">
+										<AudioFileSource Name="CANDYLAND_MENU_MUSIC_LOOP_OCK" ID="{219BDFC9-7AA3-4CC1-99A5-4182D029236F}">
 											<Language>SFX</Language>
-											<AudioFile>Chase WAITING LOOP.wav</AudioFile>
+											<AudioFile>CANDYLAND_MENU_MUSIC_LOOP_OCK.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="547819316"/>
+												<MediaID ID="144382655"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<TransitionList>
-										<MusicTransition Name="Root" ID="{C723A353-4F30-4DFD-BDF2-04A009525A5B}">
+										<MusicTransition Name="Root" ID="{34BFCA61-2905-463F-9188-537E5AF98D7D}">
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
@@ -178,18 +192,18 @@
 										<ObjectList Name="Sequences">
 											<Reference>
 												<Local>
-													<MusicTrackSequence Name="" ID="{72CE0E05-DA5C-46A0-97C0-319EFD5B2A13}">
+													<MusicTrackSequence Name="" ID="{0E90FE81-ED8E-4383-B740-2BDF9CDD29B4}">
 														<ObjectLists>
 															<ObjectList Name="Clips">
 																<Reference>
 																	<Local>
-																		<MusicClip Name="Chase WAITING LOOP" ID="{BE8C3F7F-7D29-40C6-BDB8-22D02ACF0360}">
+																		<MusicClip Name="CANDYLAND_MENU_MUSIC_LOOP_OCK" ID="{0FCDC459-83ED-4923-BE24-C51DA57CFF5B}">
 																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="5333.33333333333"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="64000.0416666667"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="Chase WAITING LOOP" ID="{72604223-D6DD-4C8A-8EA6-2B980852C5BE}"/>
+																			<AudioSourceRef Name="CANDYLAND_MENU_MUSIC_LOOP_OCK" ID="{219BDFC9-7AA3-4CC1-99A5-4182D029236F}"/>
 																		</MusicClip>
 																	</Local>
 																</Reference>
@@ -206,15 +220,15 @@
 								<ObjectList Name="Cues">
 									<Reference>
 										<Local>
-											<MusicCue Name="Entry Cue" ID="{2391D4AD-9349-43BA-9AE3-9219389A61AE}"/>
+											<MusicCue Name="Entry Cue" ID="{E38F2C1D-0B2C-4978-A016-292945FA475C}"/>
 										</Local>
 									</Reference>
 									<Reference>
 										<Local>
-											<MusicCue Name="Exit Cue" ID="{D396173F-7253-4CFB-93C3-BAA59BF3E03E}">
+											<MusicCue Name="Exit Cue" ID="{00762304-56F2-49E4-A224-A558E43FB1D5}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="5333.33333333333"/>
+													<Property Name="TimeMs" Type="Real64" Value="64000.0416666667"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>
@@ -242,12 +256,12 @@
 								<Property Name="LoopCount" Type="int16" Value="0"/>
 							</PropertyList>
 							<ChildrenList>
-								<MusicPlaylistItem Name="" ID="{4147AA2D-B054-4D9B-90BD-2C87FCAA5D21}" ShortID="1067731708">
+								<MusicPlaylistItem Name="" ID="{1943B96A-13BE-4761-BE81-17A23C2AB797}" ShortID="1013290562">
 									<PropertyList>
 										<Property Name="LoopCount" Type="int16" Value="0"/>
 										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 									</PropertyList>
-									<SegmentRef Name="Chase WAITING LOOP" ID="{A400E588-81A8-4B1A-933B-B5377F1B833C}"/>
+									<SegmentRef Name="CANDYLAND_MENU_MUSIC_LOOP_OCK" ID="{6F684F1E-58C9-43E9-8675-BE1CE3685008}"/>
 								</MusicPlaylistItem>
 							</ChildrenList>
 						</MusicPlaylistItem>
