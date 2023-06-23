@@ -1775,7 +1775,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "story\nstory \nstory\nstory\nstory\nstory\nstory"
+  m_text: "HELP!\nThe Land of Candy needs your help! \nAll of our citizens are melting!!!\n\nYour
+    goal is to try to deliver our delicious and cool treats as fast as you can! See
+    how long you can keep our Land of Candy from melting.\n\nControls: WASD, Spacebar
+    jump, Walk over icecream to pick up, Shift to deliver"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
